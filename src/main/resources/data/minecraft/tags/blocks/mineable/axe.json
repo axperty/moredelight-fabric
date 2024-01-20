@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "moredelight:oak_drawer",
+    "moredelight:birch_drawer",
+    "moredelight:spruce_drawer",
+    "moredelight:jungle_drawer",
+    "moredelight:dark_oak_drawer",
+    "moredelight:acacia_drawer",
+    "moredelight:mangrove_drawer",
+    "moredelight:crimson_drawer",
+    "moredelight:warped_drawer",
+    "moredelight:glass_oak_cabinet",
+    "moredelight:glass_birch_cabinet",
+    "moredelight:glass_spruce_cabinet",
+    "moredelight:glass_jungle_cabinet",
+    "moredelight:glass_dark_oak_cabinet",
+    "moredelight:glass_acacia_cabinet",
+    "moredelight:glass_mangrove_cabinet",
+    "moredelight:glass_crimson_cabinet",
+    "moredelight:glass_warped_cabinet"
+  ]
+}

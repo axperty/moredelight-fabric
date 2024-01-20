@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "farmersdelight:fried_egg"},
+    {"item": "moredelight:toast"}
+  ],
+  "result": {
+    "item": "moredelight:toast_with_egg"
+  }
+}
