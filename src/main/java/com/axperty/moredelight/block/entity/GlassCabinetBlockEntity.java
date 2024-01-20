@@ -26,7 +26,7 @@ import org.jetbrains.annotations.Nullable;
 public class GlassCabinetBlockEntity extends BlockEntity implements NamedScreenHandlerFactory, ImplementedInventory {
     private boolean open = false;
 
-    private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(18, ItemStack.EMPTY);
+    private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(27, ItemStack.EMPTY);
     protected final PropertyDelegate propertyDelegate;
 
     public boolean isOpen() {
@@ -52,7 +52,7 @@ public class GlassCabinetBlockEntity extends BlockEntity implements NamedScreenH
         super(BlockEntityRegistry.GLASS_CABINET_BLOCK_ENTITY, blockPos, blockState);
 
         this.propertyDelegate = new PropertyDelegate() {
-            private final int[] properties = new int[18];
+            private final int[] properties = new int[27];
 
             public int get(int index) {
                 return properties[index];

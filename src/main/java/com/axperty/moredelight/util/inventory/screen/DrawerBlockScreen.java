@@ -20,12 +20,10 @@ public class DrawerBlockScreen extends HandledScreen<DrawerBlockScreenHandler>  
     @Override
     protected void init() {
         super.init();
-        this.backgroundWidth = 176;
-        this.backgroundHeight = 133;
         this.titleX = 8;
-        this.titleY = 22;
+        this.titleY = backgroundHeight - 144;
         this.playerInventoryTitleX = 8;
-        this.playerInventoryTitleY = 55;
+        this.playerInventoryTitleY = backgroundHeight - 110;
     }
 
     @Override
@@ -34,7 +32,7 @@ public class DrawerBlockScreen extends HandledScreen<DrawerBlockScreenHandler>  
         RenderSystem.setShaderColor(1.0f, 1.0f, 1.0f, 1.0f);
         RenderSystem.setShaderTexture(0, DRAWER_TEXTURE);
         int x = (width - backgroundWidth) / 2;
-        int y = (height - backgroundHeight) / 2;
+        int y = (height - backgroundHeight) / 2 + 16;
         context.drawTexture(DRAWER_TEXTURE, x, y, 0, 0, backgroundWidth, backgroundHeight);
     }
 

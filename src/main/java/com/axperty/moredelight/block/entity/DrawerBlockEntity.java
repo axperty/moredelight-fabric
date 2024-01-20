@@ -4,7 +4,6 @@ import com.axperty.moredelight.block.custom.DrawerBlock;
 import com.axperty.moredelight.registry.BlockEntityRegistry;
 import com.axperty.moredelight.util.inventory.ImplementedInventory;
 import com.axperty.moredelight.util.inventory.screen.DrawerBlockScreenHandler;
-import com.axperty.moredelight.util.inventory.screen.GlassCabinetBlockScreenHandler;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
@@ -27,7 +26,7 @@ import org.jetbrains.annotations.Nullable;
 public class DrawerBlockEntity extends BlockEntity implements NamedScreenHandlerFactory, ImplementedInventory {
     private boolean open = false;
 
-    private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(18, ItemStack.EMPTY);
+    private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(9, ItemStack.EMPTY);
     protected final PropertyDelegate propertyDelegate;
 
     public boolean isOpen() {
@@ -53,7 +52,7 @@ public class DrawerBlockEntity extends BlockEntity implements NamedScreenHandler
         super(BlockEntityRegistry.DRAWER_BLOCK_ENTITY, blockPos, blockState);
 
         this.propertyDelegate = new PropertyDelegate() {
-            private final int[] properties = new int[18];
+            private final int[] properties = new int[9];
 
             public int get(int index) {
                 return properties[index];

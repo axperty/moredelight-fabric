@@ -18,34 +18,45 @@ public class GlassCabinetBlockScreenHandler extends ScreenHandler {
 
     public GlassCabinetBlockScreenHandler(int syncId, PlayerInventory playerInventory) {
         // Make sure to pass the correct slot count to the SimpleInventory and ArrayPropertyDelegate
-        this(syncId, playerInventory, new SimpleInventory(18), new ArrayPropertyDelegate(18));
+        this(syncId, playerInventory, new SimpleInventory(27), new ArrayPropertyDelegate(27));
     }
 
     public GlassCabinetBlockScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory, PropertyDelegate delegate) {
         super(ScreenHandlersRegistry.GLASS_CABINET_BLOCK_HANDLER, syncId);
-        checkSize(inventory, 18);
+        checkSize(inventory, 27);
         this.inventory = inventory;
         inventory.onOpen(playerInventory.player);
         this.propertyDelegate = delegate;
 
-        this.addSlot(new Slot(inventory, 0, 8, 25));
-        this.addSlot(new Slot(inventory, 1, 26, 25));
-        this.addSlot(new Slot(inventory, 2, 44, 25));
-        this.addSlot(new Slot(inventory, 3, 62, 25));
-        this.addSlot(new Slot(inventory, 4, 80, 25));
-        this.addSlot(new Slot(inventory, 5, 98, 25));
-        this.addSlot(new Slot(inventory, 6, 116, 25));
-        this.addSlot(new Slot(inventory, 7, 134, 25));
-        this.addSlot(new Slot(inventory, 8, 152, 25));
-        this.addSlot(new Slot(inventory, 9, 8, 43));
-        this.addSlot(new Slot(inventory, 10, 26, 43));
-        this.addSlot(new Slot(inventory, 11, 44, 43));
-        this.addSlot(new Slot(inventory, 12, 62, 43));
-        this.addSlot(new Slot(inventory, 13, 80, 43));
-        this.addSlot(new Slot(inventory, 14, 98, 43));
-        this.addSlot(new Slot(inventory, 15, 116, 43));
-        this.addSlot(new Slot(inventory, 16, 134, 43));
-        this.addSlot(new Slot(inventory, 17, 152, 43));
+        this.addSlot(new Slot(inventory, 0, 8, 18));
+        this.addSlot(new Slot(inventory, 1, 26, 18));
+        this.addSlot(new Slot(inventory, 2, 44, 18));
+        this.addSlot(new Slot(inventory, 3, 62, 18));
+        this.addSlot(new Slot(inventory, 4, 80, 18));
+        this.addSlot(new Slot(inventory, 5, 98, 18));
+        this.addSlot(new Slot(inventory, 6, 116, 18));
+        this.addSlot(new Slot(inventory, 7, 134, 18));
+        this.addSlot(new Slot(inventory, 8, 152, 18));
+
+        this.addSlot(new Slot(inventory, 9, 8, 36));
+        this.addSlot(new Slot(inventory, 10, 26, 36));
+        this.addSlot(new Slot(inventory, 11, 44, 36));
+        this.addSlot(new Slot(inventory, 12, 62, 36));
+        this.addSlot(new Slot(inventory, 13, 80, 36));
+        this.addSlot(new Slot(inventory, 14, 98, 36));
+        this.addSlot(new Slot(inventory, 15, 116, 36));
+        this.addSlot(new Slot(inventory, 16, 134, 36));
+        this.addSlot(new Slot(inventory, 17, 152, 36));
+
+        this.addSlot(new Slot(inventory, 18, 8, 54));
+        this.addSlot(new Slot(inventory, 19, 26, 54));
+        this.addSlot(new Slot(inventory, 20, 44, 54));
+        this.addSlot(new Slot(inventory, 21, 62, 54));
+        this.addSlot(new Slot(inventory, 22, 80, 54));
+        this.addSlot(new Slot(inventory, 23, 98, 54));
+        this.addSlot(new Slot(inventory, 24, 116, 54));
+        this.addSlot(new Slot(inventory, 25, 134, 54));
+        this.addSlot(new Slot(inventory, 26, 152, 54));
 
         addPlayerInventory(playerInventory);
         addPlayerHotbar(playerInventory);

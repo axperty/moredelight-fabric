@@ -20,8 +20,6 @@ public class GlassCabinetBlockScreen extends HandledScreen<GlassCabinetBlockScre
     @Override
     protected void init() {
         super.init();
-        this.backgroundWidth = 176;
-        this.backgroundHeight = 166;
         this.titleX = 8;
         this.playerInventoryTitleX = 8;
         this.playerInventoryTitleY = backgroundHeight - 93;
