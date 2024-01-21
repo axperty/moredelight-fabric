@@ -1,8 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {"item": "minecraft:sweet_berries"},
-    {"item": "moredelight:toast"}
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "moredelight:toast"
+    }
   ],
   "result": {
     "item": "moredelight:toast_with_sweet_berries"
