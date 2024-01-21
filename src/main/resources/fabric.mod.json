@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "moredelight",
-  "version": "1.0.0-beta",
+  "version": "1.0.3-beta",
   "name": "More Delight",
-  "description": "An addon mod for Farmer's Delight that adds many features to the base mod.",
+  "description": "An addon mod for Farmer's Delight that adds extra features to the base mod.",
   "authors": [
     "Axperty"
   ],

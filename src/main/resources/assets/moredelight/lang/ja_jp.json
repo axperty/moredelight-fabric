@@ -1,0 +1,34 @@
+{
+  "item.moredelight.wooden_knife": "木のナイフ",
+
+  "item.moredelight.bread_slice": "パンのスライス",
+  "item.moredelight.toast": "トースト",
+  "item.moredelight.toast_with_egg": "卵トースト",
+  "item.moredelight.toast_with_honey": "ハチミツトースト",
+  "item.moredelight.toast_with_sweet_berries": "スイートベリートースト",
+  "item.moredelight.omelette": "オムレツ",
+
+  "container.moredelight.drawer_block": "引き出し",
+  "container.moredelight.glass_cabinet_block": "キャビネット",
+  "container.moredelight.knife_holder_block": "ナイフホルダー",
+
+  "block.moredelight.oak_drawer": "オークの引き出し",
+  "block.moredelight.birch_drawer": "白樺の引き出し",
+  "block.moredelight.spruce_drawer": "トウヒの引き出し",
+  "block.moredelight.jungle_drawer": "ジャングルの引き出し",
+  "block.moredelight.acacia_drawer": "アカシアの引き出し",
+  "block.moredelight.dark_oak_drawer": "ダークオークの引き出し",
+  "block.moredelight.mangrove_drawer": "マングローブの引き出し",
+  "block.moredelight.crimson_drawer": "クリムゾンの引き出し",
+  "block.moredelight.warped_drawer": "ワープドの引き出し",
+
+  "block.moredelight.glass_oak_cabinet": "ガラスオークキャビネット",
+  "block.moredelight.glass_birch_cabinet": "ガラス白樺キャビネット",
+  "block.moredelight.glass_spruce_cabinet": "ガラストウヒキャビネット",
+  "block.moredelight.glass_jungle_cabinet": "ガラスジャングルキャビネット",
+  "block.moredelight.glass_acacia_cabinet": "ガラスアカシアキャビネット",
+  "block.moredelight.glass_dark_oak_cabinet": "ガラスダークオークキャビネット",
+  "block.moredelight.glass_mangrove_cabinet": "ガラスマングローブキャビネット",
+  "block.moredelight.glass_crimson_cabinet": "ガラスクリムゾンキャビネット",
+  "block.moredelight.glass_warped_cabinet": "ガラスワープドキャビネット"
+}
