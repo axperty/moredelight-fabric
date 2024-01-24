@@ -22,6 +22,9 @@ public class ItemList {
     // Toast with Sweet Berries
     public static Item TOAST_WITH_SWEET_BERRIES;
 
+    // Cooked Rice with Milk Cream and Beef
+    public static Item COOKED_RICE_WITH_MILK_CREAM_AND_BEEF;
+
     // Wheat Flour
     // public static Item WHEAT_FLOUR;
 
