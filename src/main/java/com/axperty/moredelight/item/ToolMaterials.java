@@ -12,7 +12,9 @@ public enum ToolMaterials implements ToolMaterial {
 
     // Wood Material
     WOOD_MATERIAL(3, 59, 8.0F, .7F, 10, () -> Ingredient.ofItems(Items.OAK_WOOD)),
-    STONE_MATERIAL(3, 132, 8, 1.3F, 10, () -> Ingredient.ofItems(Items.COBBLESTONE));
+
+    // Stone Material
+    STONE_MATERIAL(3, 131, 8, 1.3F, 10, () -> Ingredient.ofItems(Items.COBBLESTONE));
 
     private final int miningLevel;
     private final int durability;
