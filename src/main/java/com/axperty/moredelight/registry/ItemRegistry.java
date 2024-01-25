@@ -25,6 +25,9 @@ public class ItemRegistry {
         // Wooden Knife
         ItemList.WOODEN_KNIFE = knife("wooden_knife", new KnifeItem(ToolMaterials.WOOD_MATERIAL, new FabricItemSettings()));
 
+        // Stone Knife
+        ItemList.STONE_KNIFE = knife("stone_knife", new KnifeItem(ToolMaterials.STONE_MATERIAL, new FabricItemSettings()));
+
         // Omelette
         ItemList.OMELETTE = item("omelette", new Item(food(null, 5, 0.7f)));
 
@@ -48,6 +51,9 @@ public class ItemRegistry {
 
         // Cooked Rice with Milk Cream and Beef
         ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = item("cooked_rice_with_milk_cream_and_beef", new Item(meal(9, 2f)));
+
+        // Pasta with Milk Cream and Ham
+        ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(9, 2f)));
     }
 
     private static Item knife(String name, Item item) {

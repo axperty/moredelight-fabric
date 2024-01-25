@@ -7,6 +7,9 @@ public class ItemList {
     // Wooden Knife
     public static Item WOODEN_KNIFE;
 
+    // Stone Knife
+    public static Item STONE_KNIFE;
+
     // Slice of Bread
     public static Item BREAD_SLICE;
 
@@ -24,6 +27,9 @@ public class ItemList {
 
     // Cooked Rice with Milk Cream and Beef
     public static Item COOKED_RICE_WITH_MILK_CREAM_AND_BEEF;
+
+    // Pasta with Milk Cream and Ham
+    public static Item PASTA_WITH_MILK_CREAM_AND_HAM;
 
     // Wheat Flour
     // public static Item WHEAT_FLOUR;
