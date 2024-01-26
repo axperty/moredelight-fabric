@@ -7,6 +7,6 @@
 		"south": "farmersdelight:block/jungle_cabinet_side",
 		"up": "farmersdelight:block/jungle_cabinet_top",
 		"west": "farmersdelight:block/jungle_cabinet_side",
-		"particle": "moredelight:block/jungle_drawer_front"
+		"particle": "moredelight:block/jungle_drawer_front_open"
 	}
 }

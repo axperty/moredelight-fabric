@@ -7,6 +7,6 @@
 			"south": "farmersdelight:block/acacia_cabinet_side",
 			"up": "farmersdelight:block/acacia_cabinet_top",
 			"west": "farmersdelight:block/acacia_cabinet_side",
-			"particle": "moredelight:block/acacia_drawer_front"
+			"particle": "moredelight:block/acacia_drawer_front_open"
 		}
 	}

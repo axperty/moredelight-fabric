@@ -7,6 +7,6 @@
 		"south": "farmersdelight:block/birch_cabinet_side",
 		"up": "farmersdelight:block/birch_cabinet_top",
 		"west": "farmersdelight:block/birch_cabinet_side",
-		"particle": "moredelight:block/glass_birch_cabinet_open"
+		"particle": "moredelight:block/glass_birch_cabinet_front_open"
 	}
 }

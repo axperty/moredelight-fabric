@@ -7,6 +7,6 @@
 		"south": "farmersdelight:block/oak_cabinet_side",
 		"up": "farmersdelight:block/oak_cabinet_top",
 		"west": "farmersdelight:block/oak_cabinet_side",
-		"particle": "moredelight:block/glass_oak_cabinet_open"
+		"particle": "moredelight:block/glass_oak_cabinet_front_open"
 	}
 }
