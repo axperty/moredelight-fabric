@@ -25,17 +25,23 @@ public class LootTableUtil {
         lootTable(SNOWY_HOUSE, ItemList.WOODEN_KNIFE, 0.6f, 1.0f, 1.0f);
         lootTable(TAIGA_HOUSE, ItemList.WOODEN_KNIFE, 0.4f, 1.0f, 1.0f);
 
-        lootTable(DESERT_HOUSE, ItemList.BREAD_SLICE, 0.3f, 1.0f, 3.0f);
-        lootTable(PLAINS_HOUSE, ItemList.BREAD_SLICE, 0.5f, 1.0f, 4.0f);
-        lootTable(SAVANNA_HOUSE, ItemList.BREAD_SLICE, 0.5f, 1.0f, 5.0f);
-        lootTable(SNOWY_HOUSE, ItemList.BREAD_SLICE, 0.6f, 1.0f, 5.0f);
-        lootTable(TAIGA_HOUSE, ItemList.BREAD_SLICE, 0.4f, 1.0f, 6.0f);
+        lootTable(DESERT_HOUSE, ItemList.STONE_KNIFE, 0.1f, 1.0f, 1.0f);
+        lootTable(PLAINS_HOUSE, ItemList.STONE_KNIFE, 0.2f, 1.0f, 1.0f);
+        lootTable(SAVANNA_HOUSE, ItemList.STONE_KNIFE, 0.3f, 1.0f, 1.0f);
+        lootTable(SNOWY_HOUSE, ItemList.STONE_KNIFE, 0.4f, 1.0f, 1.0f);
+        lootTable(TAIGA_HOUSE, ItemList.STONE_KNIFE, 0.2f, 1.0f, 1.0f);
 
-        lootTable(DESERT_HOUSE, ItemList.TOAST, 0.3f, 1.0f, 3.0f);
-        lootTable(PLAINS_HOUSE, ItemList.TOAST, 0.5f, 1.0f, 4.0f);
+        lootTable(DESERT_HOUSE, ItemList.BREAD_SLICE, 0.3f, 1.0f, 1.0f);
+        lootTable(PLAINS_HOUSE, ItemList.BREAD_SLICE, 0.5f, 1.0f, 6.0f);
+        lootTable(SAVANNA_HOUSE, ItemList.BREAD_SLICE, 0.5f, 1.0f, 5.0f);
+        lootTable(SNOWY_HOUSE, ItemList.BREAD_SLICE, 0.6f, 1.0f, 1.0f);
+        lootTable(TAIGA_HOUSE, ItemList.BREAD_SLICE, 0.4f, 1.0f, 3.0f);
+
+        lootTable(DESERT_HOUSE, ItemList.TOAST, 0.3f, 1.0f, 1.0f);
+        lootTable(PLAINS_HOUSE, ItemList.TOAST, 0.5f, 1.0f, 6.0f);
         lootTable(SAVANNA_HOUSE, ItemList.TOAST, 0.5f, 1.0f, 5.0f);
-        lootTable(SNOWY_HOUSE, ItemList.TOAST, 0.6f, 1.0f, 5.0f);
-        lootTable(TAIGA_HOUSE, ItemList.TOAST, 0.4f, 1.0f, 6.0f);
+        lootTable(SNOWY_HOUSE, ItemList.TOAST, 0.6f, 1.0f, 1.0f);
+        lootTable(TAIGA_HOUSE, ItemList.TOAST, 0.4f, 1.0f, 3.0f);
     }
 
     private static void lootTable(Identifier identifier, Item item, float chance, float min, float max) {

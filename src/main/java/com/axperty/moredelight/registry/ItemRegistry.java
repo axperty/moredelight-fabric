@@ -29,10 +29,7 @@ public class ItemRegistry {
         ItemList.STONE_KNIFE = knife("stone_knife", new KnifeItem(ToolMaterials.STONE_MATERIAL, new FabricItemSettings()));
 
         // Omelette
-        ItemList.OMELETTE = item("omelette", new Item(food(null, 5, 0.7f)));
-
-        // Wheat Flour
-        // ItemList.WHEAT_FLOUR = item("wheat_flour", new Item(new FabricItemSettings()));
+        ItemList.OMELETTE = item("omelette", new Item(food(null, 6, 0.5f)));
 
         // Bread Slice
         ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 1, 0.3f)));
@@ -41,13 +38,16 @@ public class ItemRegistry {
         ItemList.TOAST = item("toast", new Item(food(null, 2, 0.5f)));
 
         // Egg in Toast
-        ItemList.TOAST_WITH_EGG = item("toast_with_egg", new Item(food(null, 3, 0.5f)));
+        ItemList.TOAST_WITH_EGG = item("toast_with_egg", new Item(food(null, 5, 0.5f)));
 
         // Toast with Honey
-        ItemList.TOAST_WITH_HONEY = item("toast_with_honey", new Item(food(null, 3, 0.5f)));
+        ItemList.TOAST_WITH_HONEY = item("toast_with_honey", new Item(food(null, 5, 0.5f)));
 
-        // Toast with Honey
-        ItemList.TOAST_WITH_SWEET_BERRIES = item("toast_with_sweet_berries", new Item(food(null, 3, 0.5f)));
+        // Toast with Sweet Berries
+        ItemList.TOAST_WITH_SWEET_BERRIES = item("toast_with_sweet_berries", new Item(food(null, 5, 0.5f)));
+
+        // Toast with Chocolate
+        ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, 0.5f)));
 
         // Cooked Rice with Milk Cream and Beef
         ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = item("cooked_rice_with_milk_cream_and_beef", new Item(meal(9, 2f)));

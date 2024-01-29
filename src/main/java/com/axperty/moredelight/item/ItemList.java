@@ -25,14 +25,14 @@ public class ItemList {
     // Toast with Sweet Berries
     public static Item TOAST_WITH_SWEET_BERRIES;
 
+    // Toast with Chocolate
+    public static Item TOAST_WITH_CHOCOLATE;
+
     // Cooked Rice with Milk Cream and Beef
     public static Item COOKED_RICE_WITH_MILK_CREAM_AND_BEEF;
 
     // Pasta with Milk Cream and Ham
     public static Item PASTA_WITH_MILK_CREAM_AND_HAM;
-
-    // Wheat Flour
-    // public static Item WHEAT_FLOUR;
 
     // Omelette
     public static Item OMELETTE;
