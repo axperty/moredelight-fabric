@@ -31,6 +31,12 @@ public class ItemRegistry {
         // Omelette
         ItemList.OMELETTE = item("omelette", new Item(food(null, 6, 0.5f)));
 
+        // Cooked Rice with Milk Cream and Beef
+        ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = item("cooked_rice_with_milk_cream_and_beef", new Item(meal(9, 2f)));
+
+        // Pasta with Milk Cream and Ham
+        ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(9, 2f)));
+
         // Bread Slice
         ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 1, 0.3f)));
 
@@ -48,12 +54,6 @@ public class ItemRegistry {
 
         // Toast with Chocolate
         ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, 0.5f)));
-
-        // Cooked Rice with Milk Cream and Beef
-        ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = item("cooked_rice_with_milk_cream_and_beef", new Item(meal(9, 2f)));
-
-        // Pasta with Milk Cream and Ham
-        ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(9, 2f)));
     }
 
     private static Item knife(String name, Item item) {

@@ -10,29 +10,5 @@
   "item.moredelight.toast_with_chocolate": "巧克力吐司",
   "item.moredelight.omelette": "煎蛋卷",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "奶油牛肉炖饭",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "奶油火腿意面",
-
-  "container.moredelight.drawer_block": "抽屉",
-  "container.moredelight.glass_cabinet_block": "橱柜",
-  "container.moredelight.knife_holder_block": "刀架",
-
-  "block.moredelight.oak_drawer": "橡木抽屉",
-  "block.moredelight.birch_drawer": "白桦抽屉",
-  "block.moredelight.spruce_drawer": "云杉抽屉",
-  "block.moredelight.jungle_drawer": "丛林抽屉",
-  "block.moredelight.acacia_drawer": "合金木抽屉",
-  "block.moredelight.dark_oak_drawer": "深色橡木抽屉",
-  "block.moredelight.mangrove_drawer": "红树抽屉",
-  "block.moredelight.crimson_drawer": "绯红抽屉",
-  "block.moredelight.warped_drawer": "扭曲抽屉",
-
-  "block.moredelight.glass_oak_cabinet": "玻璃橡木橱柜",
-  "block.moredelight.glass_birch_cabinet": "玻璃白桦橱柜",
-  "block.moredelight.glass_spruce_cabinet": "玻璃云杉橱柜",
-  "block.moredelight.glass_jungle_cabinet": "玻璃丛林橱柜",
-  "block.moredelight.glass_acacia_cabinet": "玻璃合金木橱柜",
-  "block.moredelight.glass_dark_oak_cabinet": "玻璃深色橡木橱柜",
-  "block.moredelight.glass_mangrove_cabinet": "玻璃红树橱柜",
-  "block.moredelight.glass_crimson_cabinet": "玻璃绯红橱柜",
-  "block.moredelight.glass_warped_cabinet": "玻璃扭曲橱柜"
+  "item.moredelight.pasta_with_milk_cream_and_ham": "奶油火腿意面"
 }

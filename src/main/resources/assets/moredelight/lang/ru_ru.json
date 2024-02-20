@@ -10,29 +10,5 @@
   "item.moredelight.toast_with_chocolate": "Тост с шоколадом",
   "item.moredelight.omelette": "Омлет",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Варёный рис с молочным кремом и говядиной",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Паста с молочным кремом и ветчиной",
-
-  "container.moredelight.drawer_block": "Ящик",
-  "container.moredelight.glass_cabinet_block": "Шкаф",
-  "container.moredelight.knife_holder_block": "Держатель для ножей",
-
-  "block.moredelight.oak_drawer": "Дубовый ящик",
-  "block.moredelight.birch_drawer": "Березовый ящик",
-  "block.moredelight.spruce_drawer": "Еловый ящик",
-  "block.moredelight.jungle_drawer": "Джунглевый ящик",
-  "block.moredelight.acacia_drawer": "Акациевый ящик",
-  "block.moredelight.dark_oak_drawer": "Темный дубовый ящик",
-  "block.moredelight.mangrove_drawer": "Мангровый ящик",
-  "block.moredelight.crimson_drawer": "Карминовый ящик",
-  "block.moredelight.warped_drawer": "Искаженный ящик",
-
-  "block.moredelight.glass_oak_cabinet": "Стеклянный дубовый шкаф",
-  "block.moredelight.glass_birch_cabinet": "Стеклянный березовый шкаф",
-  "block.moredelight.glass_spruce_cabinet": "Стеклянный еловый шкаф",
-  "block.moredelight.glass_jungle_cabinet": "Стеклянный джунглевый шкаф",
-  "block.moredelight.glass_acacia_cabinet": "Стеклянный акациевый шкаф",
-  "block.moredelight.glass_dark_oak_cabinet": "Стеклянный темный дубовый шкаф",
-  "block.moredelight.glass_mangrove_cabinet": "Стеклянный мангровый шкаф",
-  "block.moredelight.glass_crimson_cabinet": "Стеклянный карминовый шкаф",
-  "block.moredelight.glass_warped_cabinet": "Стеклянный искаженный шкаф"
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Паста с молочным кремом и ветчиной"
 }

@@ -10,29 +10,5 @@
   "item.moredelight.toast_with_chocolate": "Tost z Czekoladą",
   "item.moredelight.omelette": "Omlet",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gotowany ryż z kremem mlecznym i wołowiną",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Makaron z kremem mlecznym i szynką",
-
-  "container.moredelight.drawer_block": "Szuflada",
-  "container.moredelight.glass_cabinet_block": "Szafka",
-  "container.moredelight.knife_holder_block": "Uchwyt na noże",
-
-  "block.moredelight.oak_drawer": "Szuflada z dębu",
-  "block.moredelight.birch_drawer": "Szuflada z brzozy",
-  "block.moredelight.spruce_drawer": "Szuflada z świerku",
-  "block.moredelight.jungle_drawer": "Szuflada z dżungli",
-  "block.moredelight.acacia_drawer": "Szuflada z akacji",
-  "block.moredelight.dark_oak_drawer": "Szuflada z ciemnego dębu",
-  "block.moredelight.mangrove_drawer": "Szuflada z mangurowca",
-  "block.moredelight.crimson_drawer": "Szuflada z purpurowego drewna",
-  "block.moredelight.warped_drawer": "Szuflada z zakrzywionego drewna",
-
-  "block.moredelight.glass_oak_cabinet": "Szklana szafka z dębu",
-  "block.moredelight.glass_birch_cabinet": "Szklana szafka z brzozy",
-  "block.moredelight.glass_spruce_cabinet": "Szklana szafka ze świerku",
-  "block.moredelight.glass_jungle_cabinet": "Szklana szafka z dżungli",
-  "block.moredelight.glass_acacia_cabinet": "Szklana szafka z akacji",
-  "block.moredelight.glass_dark_oak_cabinet": "Szklana szafka z ciemnego dębu",
-  "block.moredelight.glass_mangrove_cabinet": "Szklana szafka z mangurowca",
-  "block.moredelight.glass_crimson_cabinet": "Szklana szafka z purpurowego drewna",
-  "block.moredelight.glass_warped_cabinet": "Szklana szafka z zakrzywionego drewna"
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Makaron z kremem mlecznym i szynką"
 }

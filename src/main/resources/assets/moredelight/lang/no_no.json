@@ -10,29 +10,5 @@
   "item.moredelight.toast_with_chocolate": "Toast med Sjokolade",
   "item.moredelight.omelette": "Omelett",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Kokt ris med melkekrem og storfekjøtt",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta med melkekrem og skinke",
-
-  "container.moredelight.drawer_block": "Skuff",
-  "container.moredelight.glass_cabinet_block": "Skap",
-  "container.moredelight.knife_holder_block": "Knivholder",
-
-  "block.moredelight.oak_drawer": "Eike Skuff",
-  "block.moredelight.birch_drawer": "Bjørk Skuff",
-  "block.moredelight.spruce_drawer": "Gran Skuff",
-  "block.moredelight.jungle_drawer": "Jungel Skuff",
-  "block.moredelight.acacia_drawer": "Akasie Skuff",
-  "block.moredelight.dark_oak_drawer": "Mørk Eik Skuff",
-  "block.moredelight.mangrove_drawer": "Mangrove Skuff",
-  "block.moredelight.crimson_drawer": "Karmosinrød Skuff",
-  "block.moredelight.warped_drawer": "Forvridd Skuff",
-
-  "block.moredelight.glass_oak_cabinet": "Glass Eik Skap",
-  "block.moredelight.glass_birch_cabinet": "Glass Bjørk Skap",
-  "block.moredelight.glass_spruce_cabinet": "Glass Gran Skap",
-  "block.moredelight.glass_jungle_cabinet": "Glass Jungel Skap",
-  "block.moredelight.glass_acacia_cabinet": "Glass Akasie Skap",
-  "block.moredelight.glass_dark_oak_cabinet": "Glass Mørk Eik Skap",
-  "block.moredelight.glass_mangrove_cabinet": "Glass Mangrove Skap",
-  "block.moredelight.glass_crimson_cabinet": "Glass Karmosinrødt Skap",
-  "block.moredelight.glass_warped_cabinet": "Glass Forvridd Skap"
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta med melkekrem og skinke"
 }

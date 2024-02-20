@@ -30,8 +30,6 @@ public class MoreDelight implements ModInitializer {
         ItemRegistry.registerItems();
         BlockRegistry.registerBlocks();
 
-        BlockEntityRegistry.registerBlockEntity();
-        ScreenHandlersRegistry.registerHandlers();
         UtilRegistries.registerUtil();
     }
 }

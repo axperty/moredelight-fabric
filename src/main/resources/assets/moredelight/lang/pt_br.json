@@ -10,29 +10,5 @@
   "item.moredelight.toast_with_chocolate": "Torrada com Chocolate",
   "item.moredelight.omelette": "Omelete",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Arroz Cozido com Creme de Leite e Carne de Vaca",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Massa com Creme de Leite e Presunto",
-
-  "container.moredelight.drawer_block": "Gaveta",
-  "container.moredelight.glass_cabinet_block": "Armário de Vidro",
-  "container.moredelight.knife_holder_block": "Porta-facas",
-
-  "block.moredelight.oak_drawer": "Gaveta de Carvalho",
-  "block.moredelight.birch_drawer": "Gaveta de Bétula",
-  "block.moredelight.spruce_drawer": "Gaveta de Pinheiro",
-  "block.moredelight.jungle_drawer": "Gaveta de Selva",
-  "block.moredelight.acacia_drawer": "Gaveta de Acácia",
-  "block.moredelight.dark_oak_drawer": "Gaveta de Carvalho Escuro",
-  "block.moredelight.mangrove_drawer": "Gaveta de Mangue",
-  "block.moredelight.crimson_drawer": "Gaveta Carmesim",
-  "block.moredelight.warped_drawer": "Gaveta Distorcida",
-
-  "block.moredelight.glass_oak_cabinet": "Armário de Vidro de Carvalho",
-  "block.moredelight.glass_birch_cabinet": "Armário de Vidro de Bétula",
-  "block.moredelight.glass_spruce_cabinet": "Armário de Vidro de Pinheiro",
-  "block.moredelight.glass_jungle_cabinet": "Armário de Vidro de Selva",
-  "block.moredelight.glass_acacia_cabinet": "Armário de Vidro de Acácia",
-  "block.moredelight.glass_dark_oak_cabinet": "Armário de Vidro de Carvalho Escuro",
-  "block.moredelight.glass_mangrove_cabinet": "Armário de Vidro de Mangue",
-  "block.moredelight.glass_crimson_cabinet": "Armário de Vidro Carmesim",
-  "block.moredelight.glass_warped_cabinet": "Armário de Vidro Distorcido"
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Massa com Creme de Leite e Presunto"
 }

@@ -10,29 +10,5 @@
   "item.moredelight.toast_with_chocolate": "Toast mit Schokolade",
   "item.moredelight.omelette": "Omelett",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gekochter Reis mit Milchcreme und Rindfleisch",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Nudeln mit Milchcreme und Schinken",
-
-  "container.moredelight.drawer_block": "Schublade",
-  "container.moredelight.glass_cabinet_block": "Schrank",
-  "container.moredelight.knife_holder_block": "Messeraufbewahrung",
-
-  "block.moredelight.oak_drawer": "Eichenschublade",
-  "block.moredelight.birch_drawer": "Birkenschublade",
-  "block.moredelight.spruce_drawer": "Fichtenschublade",
-  "block.moredelight.jungle_drawer": "Dschungelschublade",
-  "block.moredelight.acacia_drawer": "Akazienschublade",
-  "block.moredelight.dark_oak_drawer": "Dunkle Eichenschublade",
-  "block.moredelight.mangrove_drawer": "Mangrovenschublade",
-  "block.moredelight.crimson_drawer": "Purpurschublade",
-  "block.moredelight.warped_drawer": "Verzerrte Schublade",
-
-  "block.moredelight.glass_oak_cabinet": "Glas Eichenschrank",
-  "block.moredelight.glass_birch_cabinet": "Glas Birkenschrank",
-  "block.moredelight.glass_spruce_cabinet": "Glas Fichtenschrank",
-  "block.moredelight.glass_jungle_cabinet": "Glas Dschungelschrank",
-  "block.moredelight.glass_acacia_cabinet": "Glas Akazieschrank",
-  "block.moredelight.glass_dark_oak_cabinet": "Glas Dunkle Eichenschrank",
-  "block.moredelight.glass_mangrove_cabinet": "Glas Mangrovenschrank",
-  "block.moredelight.glass_crimson_cabinet": "Glas Purpurschrank",
-  "block.moredelight.glass_warped_cabinet": "Glas Verzerrter Schrank"
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Nudeln mit Milchcreme und Schinken"
 }

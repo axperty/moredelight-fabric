@@ -10,29 +10,5 @@
   "item.moredelight.toast_with_chocolate": "Toast with Chocolate",
   "item.moredelight.omelette": "Omelette",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Cooked Rice with Milk Cream and Beef",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta with Milk Cream and Ham",
-
-  "container.moredelight.drawer_block": "Drawer",
-  "container.moredelight.glass_cabinet_block": "Cabinet",
-  "container.moredelight.knife_holder_block": "Knife Holder",
-
-  "block.moredelight.oak_drawer": "Oak Drawer",
-  "block.moredelight.birch_drawer": "Birch Drawer",
-  "block.moredelight.spruce_drawer": "Spruce Drawer",
-  "block.moredelight.jungle_drawer": "Jungle Drawer",
-  "block.moredelight.acacia_drawer": "Acacia Drawer",
-  "block.moredelight.dark_oak_drawer": "Dark Oak Drawer",
-  "block.moredelight.mangrove_drawer": "Mangrove Drawer",
-  "block.moredelight.crimson_drawer": "Crimson Drawer",
-  "block.moredelight.warped_drawer": "Warped Drawer",
-
-  "block.moredelight.glass_oak_cabinet": "Glass Oak Cabinet",
-  "block.moredelight.glass_birch_cabinet": "Glass Birch Cabinet",
-  "block.moredelight.glass_spruce_cabinet": "Glass Spruce Cabinet",
-  "block.moredelight.glass_jungle_cabinet": "Glass Jungle Cabinet",
-  "block.moredelight.glass_acacia_cabinet": "Glass Acacia Cabinet",
-  "block.moredelight.glass_dark_oak_cabinet": "Glass Dark Oak Cabinet",
-  "block.moredelight.glass_mangrove_cabinet": "Glass Mangrove Cabinet",
-  "block.moredelight.glass_crimson_cabinet": "Glass Crimson Cabinet",
-  "block.moredelight.glass_warped_cabinet": "Glass Warped Cabinet"
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta with Milk Cream and Ham"
 }

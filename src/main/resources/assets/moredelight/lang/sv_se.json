@@ -10,29 +10,5 @@
   "item.moredelight.toast_with_chocolate": "Toast med Choklad",
   "item.moredelight.omelette": "Omelett",
   "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Kokt ris med mjölkkräm och nötkött",
-  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta med mjölkkräm och skinka",
-
-  "container.moredelight.drawer_block": "Låda",
-  "container.moredelight.glass_cabinet_block": "Skåp",
-  "container.moredelight.knife_holder_block": "Knivhållare",
-
-  "block.moredelight.oak_drawer": "Ek Låda",
-  "block.moredelight.birch_drawer": "Björk Låda",
-  "block.moredelight.spruce_drawer": "Gran Låda",
-  "block.moredelight.jungle_drawer": "Djungel Låda",
-  "block.moredelight.acacia_drawer": "Akacia Låda",
-  "block.moredelight.dark_oak_drawer": "Mörk Ek Låda",
-  "block.moredelight.mangrove_drawer": "Mangrovelåda",
-  "block.moredelight.crimson_drawer": "Karmosinröd Låda",
-  "block.moredelight.warped_drawer": "Förvriden Låda",
-
-  "block.moredelight.glass_oak_cabinet": "Glas Ek Skåp",
-  "block.moredelight.glass_birch_cabinet": "Glas Björk Skåp",
-  "block.moredelight.glass_spruce_cabinet": "Glas Gran Skåp",
-  "block.moredelight.glass_jungle_cabinet": "Glas Djungel Skåp",
-  "block.moredelight.glass_acacia_cabinet": "Glas Akacia Skåp",
-  "block.moredelight.glass_dark_oak_cabinet": "Glas Mörk Ek Skåp",
-  "block.moredelight.glass_mangrove_cabinet": "Glas Mangroveskåp",
-  "block.moredelight.glass_crimson_cabinet": "Glas Karmosinrött Skåp",
-  "block.moredelight.glass_warped_cabinet": "Glas Förvridet Skåp"
+  "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta med mjölkkräm och skinka"
 }
