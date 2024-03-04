@@ -10,6 +10,12 @@ public class ItemList {
     // Stone Knife
     public static Item STONE_KNIFE;
 
+    // Cooked Diced Potatoes
+    public static Item COOKED_DICED_POTATOES;
+
+    // Diced Potatoes
+    public static Item DICED_POTATOES;
+
     // Slice of Bread
     public static Item BREAD_SLICE;
 

@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model":  "moredelight:block/drawer_block" },
-    "facing=east": { "model":  "moredelight:block/drawer_block", "y":  90 },
-    "facing=south": { "model":  "moredelight:block/drawer_block", "y": 180 },
-    "facing=west": { "model":  "moredelight:block/drawer_block", "y": 270 }
-  }
-}

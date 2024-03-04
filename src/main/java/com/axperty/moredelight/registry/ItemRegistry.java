@@ -37,6 +37,13 @@ public class ItemRegistry {
         // Pasta with Milk Cream and Ham
         ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(9, 2f)));
 
+        // Cooked Diced Potatoes
+        ItemList.COOKED_DICED_POTATOES = item("cooked_diced_potatoes", new Item(meal(9, 2f)));
+
+        // Diced Potatoes
+        ItemList.DICED_POTATOES = item("diced_potatoes",
+                new Item(food(null, 1, 0.3f)));
+
         // Bread Slice
         ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 1, 0.3f)));
 

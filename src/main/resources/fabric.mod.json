@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "moredelight",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "name": "More Delight",
   "description": "An addon mod for Farmer's Delight that adds extra features to the base mod.",
   "authors": [
@@ -16,9 +16,6 @@
   "entrypoints": {
     "main": [
       "com.axperty.moredelight.MoreDelight"
-    ],
-    "client": [
-      "com.axperty.moredelight.MoreDelightClient"
     ]
   },
 
