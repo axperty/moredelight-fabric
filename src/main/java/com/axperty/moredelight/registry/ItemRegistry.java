@@ -3,21 +3,15 @@ package com.axperty.moredelight.registry;
 import com.axperty.moredelight.MoreDelight;
 import com.axperty.moredelight.item.ItemList;
 import com.axperty.moredelight.item.ToolMaterials;
-import com.nhoryzon.mc.farmersdelight.FarmersDelightMod;
 import com.nhoryzon.mc.farmersdelight.registry.EffectsRegistry;
 import com.nhoryzon.mc.farmersdelight.item.KnifeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-
-import static com.nhoryzon.mc.farmersdelight.item.ModItemSettings.food;
 
 public class ItemRegistry {
 
@@ -59,9 +53,6 @@ public class ItemRegistry {
         // Toast with Sweet Berries
         ItemList.TOAST_WITH_SWEET_BERRIES = item("toast_with_sweet_berries", new Item(food(null, 5, 0.5f)));
 
-        // Toast with Glow Berries
-        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food(null, 5, 0.5f)));
-
         // Toast with Chocolate
         ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, 0.5f)));
     }
@@ -80,12 +71,6 @@ public class ItemRegistry {
         return new FabricItemSettings().recipeRemainder(remainder)
                 .food(new FoodComponent.Builder().hunger(hunger).saturationModifier(saturation).build());
     }
-
-//    private static FabricItemSettings food_special(int hunger, float saturation) {
-//        return new FabricItemSettings().recipeRemainder(Items.BOWL).maxCount(16)
-//                .food(new FoodComponent.Builder().hunger(hunger)
-//                        .saturationModifier(saturation).statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), 3600, 0), 1.0f).build());
-//    }
 
     private static FabricItemSettings meal(int hunger, float saturation) {
         return new FabricItemSettings().recipeRemainder(Items.BOWL).maxCount(16)
