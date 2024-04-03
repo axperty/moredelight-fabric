@@ -21,7 +21,6 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	modImplementation "maven.modrinth:farmers-delight-fabric:${project.delight_version}"
-	modImplementation "maven.modrinth:farmers-delight-refabricated:${project.delight_refrabricated_version}"
 }
 
 processResources {

@@ -2,8 +2,6 @@ package com.axperty.moredelight;
 
 import com.axperty.moredelight.item.ItemList;
 import com.axperty.moredelight.registry.*;
-import com.axperty.moredelight.util.UtilRegistries;
-import com.axperty.moredelight.util.VillageTradeUtil;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
@@ -29,7 +27,5 @@ public class MoreDelight implements ModInitializer {
 
         ItemRegistry.registerItems();
         BlockRegistry.registerBlocks();
-
-        UtilRegistries.registerUtil();
     }
 }

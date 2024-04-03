@@ -31,6 +31,9 @@ public class ItemList {
     // Toast with Sweet Berries
     public static Item TOAST_WITH_SWEET_BERRIES;
 
+    // Toast with Glow Berries
+    public static Item TOAST_WITH_GLOW_BERRIES;
+
     // Toast with Chocolate
     public static Item TOAST_WITH_CHOCOLATE;
 

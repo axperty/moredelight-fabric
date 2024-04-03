@@ -59,6 +59,9 @@ public class ItemRegistry {
         // Toast with Sweet Berries
         ItemList.TOAST_WITH_SWEET_BERRIES = item("toast_with_sweet_berries", new Item(food(null, 5, 0.5f)));
 
+        // Toast with Glow Berries
+        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food(null, 5, 0.5f)));
+
         // Toast with Chocolate
         ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, 0.5f)));
     }
@@ -77,6 +80,12 @@ public class ItemRegistry {
         return new FabricItemSettings().recipeRemainder(remainder)
                 .food(new FoodComponent.Builder().hunger(hunger).saturationModifier(saturation).build());
     }
+
+//    private static FabricItemSettings food_special(int hunger, float saturation) {
+//        return new FabricItemSettings().recipeRemainder(Items.BOWL).maxCount(16)
+//                .food(new FoodComponent.Builder().hunger(hunger)
+//                        .saturationModifier(saturation).statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), 3600, 0), 1.0f).build());
+//    }
 
     private static FabricItemSettings meal(int hunger, float saturation) {
         return new FabricItemSettings().recipeRemainder(Items.BOWL).maxCount(16)
