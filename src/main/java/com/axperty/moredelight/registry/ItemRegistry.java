@@ -47,6 +47,9 @@ public class ItemRegistry {
         // Chicken Sandwich with Tomatoes and Onions
         ItemList.CHICKEN_SANDWICH_WITH_TOMATOES_AND_ONIONS = item("chicken_sandwich_with_tomatoes_and_onions", new Item(meal(9, 2f)));
 
+        // Tomato Sandwich
+        ItemList.TOMATO_SANDWICH = item("tomato_sandwich", new Item(food(null, 8, 1.5f)));
+
         // Chocolate Popsicle
         ItemList.CHOCOLATE_POPSICLE = item("chocolate_popsicle", new Item(food(null, 7, 1.f)));
 

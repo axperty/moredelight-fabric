@@ -34,6 +34,9 @@ public class ItemList {
     // Chicken Sandwich with Tomatoes and Onions
     public static Item CHICKEN_SANDWICH_WITH_TOMATOES_AND_ONIONS;
 
+    // Tomato Sandwich
+    public static Item TOMATO_SANDWICH;
+
     // Chocolate Popsicle
     public static Item CHOCOLATE_POPSICLE;
 
