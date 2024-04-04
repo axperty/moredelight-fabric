@@ -32,6 +32,9 @@ public class ItemRegistry {
         // Cooked Rice with Milk Cream and Beef
         ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = item("cooked_rice_with_milk_cream_and_beef", new Item(meal(9, 2f)));
 
+        // Potato Salad
+        ItemList.POTATO_SALAD = item("potato_salad", new Item(meal(8, 2f)));
+
         // Pasta with Milk Cream and Ham
         ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(9, 2f)));
 
@@ -52,6 +55,12 @@ public class ItemRegistry {
 
         // Chocolate Popsicle
         ItemList.CHOCOLATE_POPSICLE = item("chocolate_popsicle", new Item(food(null, 7, 1.f)));
+
+        // Tomato Soup
+        ItemList.TOMATO_SOUP = item("tomato_soup", new Item(food(null, 6, 1.f)));
+
+        // Carrot Soup
+        ItemList.CARROT_SOUP = item("carrot_soup", new Item(food(null, 6, 1.f)));
 
         // Bread Slice
         ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 1, 0.3f)));

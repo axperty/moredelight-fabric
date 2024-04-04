@@ -19,6 +19,9 @@ public class ItemList {
     // Cooked Rice with Milk Cream and Beef
     public static Item COOKED_RICE_WITH_MILK_CREAM_AND_BEEF;
 
+    // Potato Salad
+    public static Item POTATO_SALAD;
+
     // Pasta with Milk Cream and Ham
     public static Item PASTA_WITH_MILK_CREAM_AND_HAM;
 
@@ -39,6 +42,12 @@ public class ItemList {
 
     // Chocolate Popsicle
     public static Item CHOCOLATE_POPSICLE;
+
+    // Tomato Soup
+    public static Item TOMATO_SOUP;
+
+    // Carrot Soup
+    public static Item CARROT_SOUP;
 
     // Slice of Bread
     public static Item BREAD_SLICE;
