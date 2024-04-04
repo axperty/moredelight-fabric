@@ -10,11 +10,32 @@ public class ItemList {
     // Stone Knife
     public static Item STONE_KNIFE;
 
+    // Diced Potatoes
+    public static Item DICED_POTATOES;
+
+    // Omelette
+    public static Item OMELETTE;
+
+    // Cooked Rice with Milk Cream and Beef
+    public static Item COOKED_RICE_WITH_MILK_CREAM_AND_BEEF;
+
+    // Pasta with Milk Cream and Ham
+    public static Item PASTA_WITH_MILK_CREAM_AND_HAM;
+
     // Cooked Diced Potatoes
     public static Item COOKED_DICED_POTATOES;
 
-    // Diced Potatoes
-    public static Item DICED_POTATOES;
+    // Cooked Diced Potatoes with Chicken Cuts
+    public static Item COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS;
+
+    // Smashed Potatoes
+    public static Item SMASHED_POTATOES;
+
+    // Chicken Sandwich with Tomatoes and Onions
+    public static Item CHICKEN_SANDWICH_WITH_TOMATOES_AND_ONIONS;
+
+    // Chocolate Popsicle
+    public static Item CHOCOLATE_POPSICLE;
 
     // Slice of Bread
     public static Item BREAD_SLICE;
@@ -37,12 +58,4 @@ public class ItemList {
     // Toast with Chocolate
     public static Item TOAST_WITH_CHOCOLATE;
 
-    // Cooked Rice with Milk Cream and Beef
-    public static Item COOKED_RICE_WITH_MILK_CREAM_AND_BEEF;
-
-    // Pasta with Milk Cream and Ham
-    public static Item PASTA_WITH_MILK_CREAM_AND_HAM;
-
-    // Omelette
-    public static Item OMELETTE;
 }

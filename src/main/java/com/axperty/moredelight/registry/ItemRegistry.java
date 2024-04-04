@@ -22,6 +22,10 @@ public class ItemRegistry {
         // Stone Knife
         ItemList.STONE_KNIFE = knife("stone_knife", new KnifeItem(ToolMaterials.STONE_MATERIAL, new FabricItemSettings()));
 
+        // Diced Potatoes
+        ItemList.DICED_POTATOES = item("diced_potatoes",
+                new Item(food(null, 1, 0.3f)));
+
         // Omelette
         ItemList.OMELETTE = item("omelette", new Item(food(null, 6, 0.5f)));
 
@@ -34,9 +38,17 @@ public class ItemRegistry {
         // Cooked Diced Potatoes
         ItemList.COOKED_DICED_POTATOES = item("cooked_diced_potatoes", new Item(meal(9, 2f)));
 
-        // Diced Potatoes
-        ItemList.DICED_POTATOES = item("diced_potatoes",
-                new Item(food(null, 1, 0.3f)));
+        // Cooked Diced Potatoes with Chicken Cuts
+        ItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = item("cooked_diced_potatoes_with_chicken_cuts", new Item(meal(9, 2f)));
+
+        // Smashed Potatoes
+        ItemList.SMASHED_POTATOES = item("smashed_potatoes", new Item(meal(8, 2f)));
+
+        // Chicken Sandwich with Tomatoes and Onions
+        ItemList.CHICKEN_SANDWICH_WITH_TOMATOES_AND_ONIONS = item("chicken_sandwich_with_tomatoes_and_onions", new Item(meal(9, 2f)));
+
+        // Chocolate Popsicle
+        ItemList.CHOCOLATE_POPSICLE = item("chocolate_popsicle", new Item(food(null, 7, 1.f)));
 
         // Bread Slice
         ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 1, 0.3f)));
@@ -52,6 +64,9 @@ public class ItemRegistry {
 
         // Toast with Sweet Berries
         ItemList.TOAST_WITH_SWEET_BERRIES = item("toast_with_sweet_berries", new Item(food(null, 5, 0.5f)));
+
+        // Toast with Glow Berries
+        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food(null, 5, 0.5f)));
 
         // Toast with Chocolate
         ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, 0.5f)));
