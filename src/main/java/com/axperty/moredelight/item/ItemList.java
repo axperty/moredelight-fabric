@@ -19,8 +19,8 @@ public class ItemList {
     // Cooked Rice with Milk Cream and Beef
     public static Item COOKED_RICE_WITH_MILK_CREAM_AND_BEEF;
 
-    // Potato Salad
-    public static Item POTATO_SALAD;
+    // Mashed Potatoes
+    public static Item MASHED_POTATOES;
 
     // Pasta with Milk Cream and Ham
     public static Item PASTA_WITH_MILK_CREAM_AND_HAM;
@@ -31,23 +31,17 @@ public class ItemList {
     // Cooked Diced Potatoes with Chicken Cuts
     public static Item COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS;
 
-    // Smashed Potatoes
-    public static Item SMASHED_POTATOES;
+    // Potato Salad
+    public static Item POTATO_SALAD;
 
-    // Chicken Sandwich with Tomatoes and Onions
-    public static Item CHICKEN_SANDWICH_WITH_TOMATOES_AND_ONIONS;
-
-    // Tomato Sandwich
-    public static Item TOMATO_SANDWICH;
+    // Carrot Soup
+    public static Item CARROT_SOUP;
 
     // Chocolate Popsicle
     public static Item CHOCOLATE_POPSICLE;
 
-    // Tomato Soup
-    public static Item TOMATO_SOUP;
-
-    // Carrot Soup
-    public static Item CARROT_SOUP;
+    // Tomato Sandwich
+    public static Item TOMATO_SANDWICH;
 
     // Slice of Bread
     public static Item BREAD_SLICE;
