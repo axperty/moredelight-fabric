@@ -116,7 +116,7 @@ public class ItemRegistry {
     private static FabricItemSettings stew(int hunger, float saturation) {
                 return new FabricItemSettings().recipeRemainder(Items.BOWL).maxCount(16)
                         .food(new FoodComponent.Builder().hunger(hunger).saturationModifier(saturation)
-                                .statusEffect(new StatusEffectInstance(ModEffects.COMFORT.get(), 2400, 0), 1.0f).build());
+                                .statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), 2400, 0), 1.0f).build());
     }
 
     private static FabricItemSettings food_special(int hunger, float saturation) {
