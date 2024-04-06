@@ -16,8 +16,8 @@ public class ItemList {
     // Omelette
     public static Item OMELETTE;
 
-    // Cooked Rice with Milk Cream and Beef
-    public static Item COOKED_RICE_WITH_MILK_CREAM_AND_BEEF;
+    // Cooked Rice with Milk Cream and STEAK
+    public static Item COOKED_RICE_WITH_MILK_CREAM_AND_STEAK;
 
     // Mashed Potatoes
     public static Item MASHED_POTATOES;
@@ -39,6 +39,12 @@ public class ItemList {
 
     // Chocolate Popsicle
     public static Item CHOCOLATE_POPSICLE;
+
+    // Egg with Bacon Sandwich
+    public static Item EGG_WITH_BACON_SANDWICH;
+
+    // Steak and Egg Sandwich
+    public static Item STEAK_WITH_EGG_SANDWICH;
 
     // Tomato Sandwich
     public static Item TOMATO_SANDWICH;
@@ -63,5 +69,8 @@ public class ItemList {
 
     // Toast with Chocolate
     public static Item TOAST_WITH_CHOCOLATE;
+
+    // Toast with Cheese (Expanded Delight)
+    public static Item TOAST_WITH_CHEESE;
 
 }

@@ -8,8 +8,19 @@
   "item.moredelight.toast_with_sweet_berries": "Toast se sladkými bobulemi",
   "item.moredelight.toast_with_chocolate": "Toast s čokoládou",
   "item.moredelight.omelette": "Omeleta",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Vařená rýže se smetanou a hovězím masem",
+  "item.moredelight.cooked_rice_with_milk_cream_and_steak": "Vařená rýže se smetanou a hovězím masem",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Těstoviny se smetanou a šunkou",
   "item.moredelight.cooked_diced_potatoes": "Pečené nakrájené brambory",
-  "item.moredelight.diced_potatoes": "Nakrájené brambory"
+  "item.moredelight.diced_potatoes": "Nakrájené brambory",
+
+  "item.moredelight.mashed_potatoes": "Hrnčířské brambory",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Vařené kostky brambor s kuřecími řezy",
+  "item.moredelight.potato_salad": "Bramborový salát",
+  "item.moredelight.egg_with_bacon_sandwich": "Vejce se sendvičem se špekem",
+  "item.moredelight.tomato_sandwich": "Rajčatový sendvič",
+  "item.moredelight.steak_with_egg_sandwich": "Steak se sendvičem se vajíčkem",
+  "item.moredelight.carrot_soup": "Mrkvová polévka",
+  "item.moredelight.chocolate_popsicle": "Čokoládová zmrzlinová tyčinka",
+  "item.moredelight.toast_with_glow_berries": "Topinka s třpytivými bobulemi",
+  "item.moredelight.toast_with_cheese": "Topinka sýrem"
 }

@@ -9,8 +9,19 @@
   "item.moredelight.toast_with_sweet_berries": "Tost z jagodami",
   "item.moredelight.toast_with_chocolate": "Tost z Czekoladą",
   "item.moredelight.omelette": "Omlet",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gotowany ryż z kremem mlecznym i wołowiną",
+  "item.moredelight.cooked_rice_with_milk_cream_and_steak": "Gotowany ryż z kremem mlecznym i wołowiną",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Makaron z kremem mlecznym i szynką",
   "item.moredelight.cooked_diced_potatoes": "Gotowane, krojone ziemniaki",
-  "item.moredelight.diced_potatoes": "Krojone ziemniaki"
+  "item.moredelight.diced_potatoes": "Krojone ziemniaki",
+
+  "item.moredelight.mashed_potatoes": "Tłuczone ziemniaki",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Gotowane pokrojone ziemniaki z kawałkami kurczaka",
+  "item.moredelight.potato_salad": "Sałatka ziemniaczana",
+  "item.moredelight.egg_with_bacon_sandwich": "Kanapka z jajkiem i boczkiem",
+  "item.moredelight.tomato_sandwich": "Kanapka pomidorowa",
+  "item.moredelight.steak_with_egg_sandwich": "Kanapka ze stekiem i jajkiem",
+  "item.moredelight.carrot_soup": "Zupa marchewkowa",
+  "item.moredelight.chocolate_popsicle": "Lody czekoladowe",
+  "item.moredelight.toast_with_glow_berries": "Tosty z błyszczącymi jagodami",
+  "item.moredelight.toast_with_cheese": "Tosty z serem"
 }

@@ -9,8 +9,19 @@
   "item.moredelight.toast_with_sweet_berries": "Toast aux baies sucrées",
   "item.moredelight.toast_with_chocolate": "Toast au chocolat",
   "item.moredelight.omelette": "Omelette",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Riz cuit avec crème de lait et bœuf",
+  "item.moredelight.cooked_rice_with_milk_cream_and_steak": "Riz cuit avec crème de lait et bœuf",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Pâtes avec crème de lait et jambon",
   "item.moredelight.cooked_diced_potatoes": "Pommes de terre coupées en dés cuites",
-  "item.moredelight.diced_potatoes": "Pommes de terre coupées en dés"
+  "item.moredelight.diced_potatoes": "Pommes de terre coupées en dés",
+
+  "item.moredelight.mashed_potatoes": "Purée de pommes de terre",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Pommes de terre coupées en dés cuites avec des morceaux de poulet",
+  "item.moredelight.potato_salad": "Salade de pommes de terre",
+  "item.moredelight.egg_with_bacon_sandwich": "Sandwich aux œufs et au bacon",
+  "item.moredelight.tomato_sandwich": "Sandwich à la tomate",
+  "item.moredelight.steak_with_egg_sandwich": "Sandwich au steak et à l'œuf",
+  "item.moredelight.carrot_soup": "Soupe de carottes",
+  "item.moredelight.chocolate_popsicle": "Esquimau au chocolat",
+  "item.moredelight.toast_with_glow_berries": "Toast aux baies lumineuses",
+  "item.moredelight.toast_with_cheese": "Toast au fromage"
 }

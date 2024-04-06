@@ -9,8 +9,19 @@
   "item.moredelight.toast_with_sweet_berries": "Tosto kun Dolĉaj Berberoj",
   "item.moredelight.toast_with_chocolate": "Tosto kun ĉokolado",
   "item.moredelight.omelette": "Omeleto",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Kuirita Rizo kun Laktkremo kaj Bovino",
+  "item.moredelight.cooked_rice_with_milk_cream_and_steak": "Kuirita Rizo kun Laktkremo kaj Bovino",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta kun Laktkremo kaj Ŝinko",
   "item.moredelight.cooked_diced_potatoes": "Kuirita kubikigita terpomo",
-  "item.moredelight.diced_potatoes": "Kubikigitaj terpomoj"
+  "item.moredelight.diced_potatoes": "Kubikigitaj terpomoj",
+
+  "item.moredelight.mashed_potatoes": "Purigita Terpomuŝo",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Kuirita Tranĉita Terpomo kun Kokidoj",
+  "item.moredelight.potato_salad": "Terpomsalato",
+  "item.moredelight.egg_with_bacon_sandwich": "Ova kun Bacon-Sandviĉo",
+  "item.moredelight.tomato_sandwich": "Tomata-Sandviĉo",
+  "item.moredelight.steak_with_egg_sandwich": "Bovbif-Sandviĉo kun Ovo",
+  "item.moredelight.carrot_soup": "Karota Supo",
+  "item.moredelight.chocolate_popsicle": "Ĉokoladaj Glaciesetoj",
+  "item.moredelight.toast_with_glow_berries": "Tostpano kun Lumberoj",
+  "item.moredelight.toast_with_cheese": "Tostpano kun Fromaĝo"
 }

@@ -9,8 +9,19 @@
   "item.moredelight.toast_with_sweet_berries": "Toast mit Süßbeeren",
   "item.moredelight.toast_with_chocolate": "Toast mit Schokolade",
   "item.moredelight.omelette": "Omelett",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gekochter Reis mit Milchcreme und Rindfleisch",
+  "item.moredelight.cooked_rice_with_milk_cream_and_steak": "Gekochter Reis mit Milchcreme und Rindfleisch",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Nudeln mit Milchcreme und Schinken",
   "item.moredelight.cooked_diced_potatoes": "Gekochte gewürfelte Kartoffeln",
-  "item.moredelight.diced_potatoes": "Gewürfelte Kartoffeln"
+  "item.moredelight.diced_potatoes": "Gewürfelte Kartoffeln",
+
+  "item.moredelight.mashed_potatoes": "Kartoffelpüree",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Gekochte gewürfelte Kartoffeln mit Hühnerschnitten",
+  "item.moredelight.potato_salad": "Kartoffelsalat",
+  "item.moredelight.egg_with_bacon_sandwich": "Ei mit Speck-Sandwich",
+  "item.moredelight.tomato_sandwich": "Tomaten-Sandwich",
+  "item.moredelight.steak_with_egg_sandwich": "Steak mit Ei-Sandwich",
+  "item.moredelight.carrot_soup": "Karottensuppe",
+  "item.moredelight.chocolate_popsicle": "Schokoladeneis am Stiel",
+  "item.moredelight.toast_with_glow_berries": "Toast mit Glühbeeren",
+  "item.moredelight.toast_with_cheese": "Toast mit Käse"
 }

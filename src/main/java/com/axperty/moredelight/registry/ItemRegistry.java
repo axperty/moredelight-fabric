@@ -7,6 +7,7 @@ import com.nhoryzon.mc.farmersdelight.registry.EffectsRegistry;
 import com.nhoryzon.mc.farmersdelight.item.KnifeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -30,16 +31,16 @@ public class ItemRegistry {
         ItemList.OMELETTE = item("omelette", new Item(food(null, 6, 0.5f)));
 
         // Cooked Rice with Milk Cream and Beef
-        ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = item("cooked_rice_with_milk_cream_and_beef", new Item(meal(9, 2f)));
+        ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_STEAK = item("cooked_rice_with_milk_cream_and_steak", new Item(meal(9, 2f)));
 
         // Mashed Potatoes
-        ItemList.MASHED_POTATOES = item("mashed_potatoes", new Item(meal(8, 2f)));
+        ItemList.MASHED_POTATOES = item("mashed_potatoes", new Item(food(null,8, 1.5f)));
 
         // Pasta with Milk Cream and Ham
         ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(9, 2f)));
 
         // Cooked Diced Potatoes
-        ItemList.COOKED_DICED_POTATOES = item("cooked_diced_potatoes", new Item(meal(9, 2f)));
+        ItemList.COOKED_DICED_POTATOES = item("cooked_diced_potatoes", new Item(food(null,8, 1.5f)));
 
         // Cooked Diced Potatoes with Chicken Cuts
         ItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = item("cooked_diced_potatoes_with_chicken_cuts", new Item(meal(9, 2f)));
@@ -48,10 +49,16 @@ public class ItemRegistry {
         ItemList.POTATO_SALAD = item("potato_salad", new Item(meal(8, 2f)));
 
         // Carrot Soup
-        ItemList.CARROT_SOUP = item("carrot_soup", new Item(food(null, 6, 1.f)));
+        ItemList.CARROT_SOUP = item("carrot_soup.json", new Item(food(null, 6, 1.f).maxCount(16)));
 
         // Chocolate Popsicle
         ItemList.CHOCOLATE_POPSICLE = item("chocolate_popsicle", new Item(food(null, 7, 1.f)));
+
+        // Egg with Bacon Sandwich
+        ItemList.EGG_WITH_BACON_SANDWICH = item("egg_with_bacon_sandwich.json", new Item(food(null, 8, 1.5f)));
+
+        // Steak and Egg Sandwich
+        ItemList.STEAK_WITH_EGG_SANDWICH = item("steak_with_egg_sandwich.json", new Item(food(null, 8, 1.5f)));
 
         // Tomato Sandwich
         ItemList.TOMATO_SANDWICH = item("tomato_sandwich", new Item(food(null, 8, 1.5f)));
@@ -76,6 +83,11 @@ public class ItemRegistry {
 
         // Toast with Chocolate
         ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, 0.5f)));
+
+        // Toast with Cheese (Expanded Delight)
+        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
+            ItemList.TOAST_WITH_CHEESE = item("toast_with_cheese", new Item(food(null, 5, 0.5f)));
+        }
     }
 
     private static Item knife(String name, Item item) {

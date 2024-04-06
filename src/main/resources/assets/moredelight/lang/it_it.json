@@ -9,8 +9,19 @@
   "item.moredelight.toast_with_sweet_berries": "Toast con Bacche Dolci",
   "item.moredelight.toast_with_chocolate": "Toast con Cioccolato",
   "item.moredelight.omelette": "Omelette",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Riso Cotto con Crema di Latte e Manzo",
+  "item.moredelight.cooked_rice_with_milk_cream_and_steak": "Riso Cotto con Crema di Latte e Manzo",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta con Crema di Latte e Prosciutto",
   "item.moredelight.cooked_diced_potatoes": "Patate a Cubetti Cotte",
-  "item.moredelight.diced_potatoes": "Patate a Cubetti"
+  "item.moredelight.diced_potatoes": "Patate a Cubetti",
+
+  "item.moredelight.mashed_potatoes": "Purea di patate",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Patate a cubetti cotte con pezzetti di pollo",
+  "item.moredelight.potato_salad": "Insalata di patate",
+  "item.moredelight.egg_with_bacon_sandwich": "Sandwich con uovo e pancetta",
+  "item.moredelight.tomato_sandwich": "Sandwich al pomodoro",
+  "item.moredelight.steak_with_egg_sandwich": "Sandwich con bistecca e uovo",
+  "item.moredelight.carrot_soup": "Zuppa di carote",
+  "item.moredelight.chocolate_popsicle": "Ghiacciolo al cioccolato",
+  "item.moredelight.toast_with_glow_berries": "Toast con bacche luminose",
+  "item.moredelight.toast_with_cheese": "Toast con formaggio"
 }

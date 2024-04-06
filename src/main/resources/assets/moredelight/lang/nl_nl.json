@@ -9,8 +9,19 @@
   "item.moredelight.toast_with_sweet_berries": "Toast met Zoete Bessen",
   "item.moredelight.toast_with_chocolate": "Tosti met Chocolade",
   "item.moredelight.omelette": "Omelet",
-  "item.moredelight.cooked_rice_with_milk_cream_and_beef": "Gekookte Rijst met Melkroom en Rundvlees",
+  "item.moredelight.cooked_rice_with_milk_cream_and_steak": "Gekookte Rijst met Melkroom en Rundvlees",
   "item.moredelight.pasta_with_milk_cream_and_ham": "Pasta met Melkroom en Ham",
   "item.moredelight.cooked_diced_potatoes": "Gekookte Gekruide Aardappelblokjes",
-  "item.moredelight.diced_potatoes": "Gekruide Aardappelblokjes"
+  "item.moredelight.diced_potatoes": "Gekruide Aardappelblokjes",
+
+  "item.moredelight.mashed_potatoes": "Aardappelpuree",
+  "item.moredelight.cooked_diced_potatoes_with_chicken_cuts": "Gekookte in blokjes gesneden aardappelen met stukjes kip",
+  "item.moredelight.potato_salad": "Aardappelsalade",
+  "item.moredelight.egg_with_bacon_sandwich": "Ei met spek sandwich",
+  "item.moredelight.tomato_sandwich": "Tomaten sandwich",
+  "item.moredelight.steak_with_egg_sandwich": "Steak met ei sandwich",
+  "item.moredelight.carrot_soup": "Wortelsoep",
+  "item.moredelight.chocolate_popsicle": "Chocolade ijslolly",
+  "item.moredelight.toast_with_glow_berries": "Toast met glow-bessen",
+  "item.moredelight.toast_with_cheese": "Toast met kaas"
 }
