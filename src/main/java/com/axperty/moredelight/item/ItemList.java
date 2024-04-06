@@ -16,8 +16,8 @@ public class ItemList {
     // Omelette
     public static Item OMELETTE;
 
-    // Cooked Rice with Milk Cream and STEAK
-    public static Item COOKED_RICE_WITH_MILK_CREAM_AND_STEAK;
+    // Cooked Rice with Milk Cream and Beef
+    public static Item COOKED_RICE_WITH_MILK_CREAM_AND_BEEF;
 
     // Mashed Potatoes
     public static Item MASHED_POTATOES;

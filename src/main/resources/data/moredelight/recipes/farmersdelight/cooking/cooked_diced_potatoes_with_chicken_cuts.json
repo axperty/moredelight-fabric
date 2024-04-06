@@ -2,6 +2,9 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
+        "item": "minecraft:water_bucket"
+      },
+      {
         "item": "farmersdelight:chicken_cuts"
       },
       {

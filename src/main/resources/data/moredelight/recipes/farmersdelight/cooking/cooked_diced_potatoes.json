@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "moredelight:diced_potatoes"
+        "item": "minecraft:water_bucket"
       },
       {
         "item": "moredelight:diced_potatoes"

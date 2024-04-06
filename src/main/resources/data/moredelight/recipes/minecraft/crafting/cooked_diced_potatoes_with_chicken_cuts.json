@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moredelight:cooked_diced_potatoes"
+    },
+    {
+      "item": "farmersdelight:cooked_chicken_cuts"
+    }
+  ],
+  "result": {
+    "item": "moredelight:cooked_diced_potatoes_with_chicken_cuts"
+  }
+}

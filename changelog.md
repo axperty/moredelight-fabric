@@ -18,10 +18,20 @@
   <li>Added Toast with Cheese (for Expanded Delight)</li>
 </ul>
 
-<h3>🛠️ Other Adjustments:</h2>
+<h3>🥔 Cooked Diced Potatoes:</h3>
 <ul>
-  <li>Cooked Diced Potatoes now require three diced potatoes items to cook.</li>
-  <li>Foods that require to be cooked will now give you a small amount of experience.</li>
-  <li>Added translations for Ukrainian and Czech (thank you unroman!).</li>
+  <li>Changed the amount of required Diced Potatoes to prepare this meal has been reduced.</li>
+  <li>Now you need a water bucket and two Diced Potatoes to make this meal.</li>
+  <li>The nourishment effect has been removed when eating.</li>
+  <li>You can now combine Cooked Diced Potatoes with Chicken Cuts.</li>
 </ul>
 
+<h3>🛠️ Other Changes:</h3>
+<ul>
+  <li>Meals that require to be prepared in the cooking pot will now give you a small amount of experience.</li>
+  <li>Reduced the chance to get more Diced Potatoes from 30% to 10%.</li>
+  <li>Added translations for Ukrainian and Czech (thank you unroman!).</li>
+</ul>
+<hr/>
+
+<p>Your feedback is important to make improvements to this mod, submit your ideas and report bugs on <a href="https://github.com/axperty/moredelight-fabric/issues">GitHub.</a></p>
