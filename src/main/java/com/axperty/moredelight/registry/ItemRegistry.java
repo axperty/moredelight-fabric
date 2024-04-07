@@ -8,13 +8,13 @@ import com.nhoryzon.mc.farmersdelight.item.KnifeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class ItemRegistry {
 
@@ -27,74 +27,74 @@ public class ItemRegistry {
 
         // Diced Potatoes
         ItemList.DICED_POTATOES = item("diced_potatoes",
-                new Item(food(null, 1, 0.3f)));
+                new Item(food(null, 2, .2f)));
 
         // Omelette
-        ItemList.OMELETTE = item("omelette", new Item(food(null, 6, 0.5f)));
+        ItemList.OMELETTE = item("omelette", new Item(food(null, 5, .5f)));
 
         // Cooked Rice with Milk Cream and Beef
-        ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = item("cooked_rice_with_milk_cream_and_beef", new Item(meal(9, 2f)));
+        ItemList.COOKED_RICE_WITH_MILK_CREAM_AND_BEEF = item("cooked_rice_with_milk_cream_and_beef", new Item(meal(Items.BOWL,10, .75f)));
 
         // Mashed Potatoes
-        ItemList.MASHED_POTATOES = item("mashed_potatoes", new Item(food(null,8, 1.5f).maxCount(16)));
+        ItemList.MASHED_POTATOES = item("mashed_potatoes", new Item(food(Items.BOWL,10, .75f).maxCount(16)));
 
         // Pasta with Milk Cream and Ham
-        ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(9, 2f)));
+        ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(Items.BOWL, 10, .75f)));
 
         // Cooked Diced Potatoes with Chicken Cuts
-        ItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = item("cooked_diced_potatoes_with_chicken_cuts", new Item(meal(9, 2f)));
+        ItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = item("cooked_diced_potatoes_with_chicken_cuts", new Item(food_special(Items.BOWL, StatusEffects.SPEED, 200, 0, 10, .75f).maxCount(16)));
 
         // Cooked Diced Potatoes with Chicken Cuts
-        ItemList.COOKED_DICED_POTATOES_WITH_BEEF = item("cooked_diced_potatoes_with_beef", new Item(meal(9, 2f)));
+        ItemList.COOKED_DICED_POTATOES_WITH_BEEF = item("cooked_diced_potatoes_with_beef", new Item(food_special(Items.BOWL, StatusEffects.STRENGTH, 200, 0,10, .75f).maxCount(16)));
 
         // Cooked Diced Potatoes with Porkchop
-        ItemList.COOKED_DICED_POTATOES_WITH_PORKCHOP = item("cooked_diced_potatoes_with_porkchop", new Item(meal(9, 2f)));
+        ItemList.COOKED_DICED_POTATOES_WITH_PORKCHOP = item("cooked_diced_potatoes_with_porkchop", new Item(food_special(Items.BOWL, StatusEffects.RESISTANCE, 200, 0,10, .75f).maxCount(16)));
 
         // Potato Salad
-        ItemList.POTATO_SALAD = item("potato_salad", new Item(food(null,8, 1.5f).maxCount(16)));
+        ItemList.POTATO_SALAD = item("potato_salad", new Item(food(Items.BOWL,6, .6f).maxCount(16)));
 
         // Carrot Soup
-        ItemList.CARROT_SOUP = item("carrot_soup", new Item(stew(7, 0.8f)));
+        ItemList.CARROT_SOUP = item("carrot_soup", new Item(stew(9, .75f)));
 
         // Chocolate Popsicle
-        ItemList.CHOCOLATE_POPSICLE = item("chocolate_popsicle", new Item(food(null, 7, 1.f)));
+        ItemList.CHOCOLATE_POPSICLE = item("chocolate_popsicle", new Item(food(null, 3, .2f)));
 
         // Chicken Sandwich with Egg and Tomato
-        ItemList.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = item("chicken_sandwich_with_egg_and_tomato", new Item(food(null, 9, 2f)));
+        ItemList.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = item("chicken_sandwich_with_egg_and_tomato", new Item(food(null, 11, .9f)));
 
         // Egg with Bacon Sandwich
-        ItemList.EGG_WITH_BACON_SANDWICH = item("egg_with_bacon_sandwich", new Item(food(null, 8, 1.5f)));
+        ItemList.EGG_WITH_BACON_SANDWICH = item("egg_with_bacon_sandwich", new Item(food(null, 10, .8f)));
 
         // Steak and Egg Sandwich
-        ItemList.STEAK_WITH_EGG_SANDWICH = item("steak_with_egg_sandwich", new Item(food(null, 8, 1.5f)));
+        ItemList.STEAK_WITH_EGG_SANDWICH = item("steak_with_egg_sandwich", new Item(food(null, 10, .8f)));
 
         // Tomato Sandwich
-        ItemList.TOMATO_SANDWICH = item("tomato_sandwich", new Item(food(null, 5, 1.0f)));
+        ItemList.TOMATO_SANDWICH = item("tomato_sandwich", new Item(food(null, 6, .6f)));
 
         // Bread Slice
-        ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 1, 0.3f)));
+        ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 1, .3f)));
 
         // Toast
-        ItemList.TOAST = item("toast", new Item(food(null, 2, 0.5f)));
+        ItemList.TOAST = item("toast", new Item(food(null, 2, .4f)));
 
         // Toast with Egg
-        ItemList.TOAST_WITH_EGG = item("toast_with_egg", new Item(food(null, 5, 0.5f)));
+        ItemList.TOAST_WITH_EGG = item("toast_with_egg", new Item(food(null, 5, .5f)));
 
         // Toast with Honey
-        ItemList.TOAST_WITH_HONEY = item("toast_with_honey", new Item(food(null, 5, 0.5f)));
+        ItemList.TOAST_WITH_HONEY = item("toast_with_honey", new Item(food(null, 5, .5f)));
 
         // Toast with Sweet Berries
-        ItemList.TOAST_WITH_SWEET_BERRIES = item("toast_with_sweet_berries", new Item(food(null, 5, 0.5f)));
+        ItemList.TOAST_WITH_SWEET_BERRIES = item("toast_with_sweet_berries", new Item(food(null, 5, .5f)));
 
         // Toast with Glow Berries
-        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food_special(5, 0.5f)));
+        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food_special(null, StatusEffects.GLOWING, 200, 0, 5, .5f)));
 
         // Toast with Chocolate
-        ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, 0.5f)));
+        ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, .5f)));
 
         // Toast with Cheese (Expanded Delight)
         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
-            ItemList.TOAST_WITH_CHEESE = item("toast_with_cheese", new Item(food(null, 5, 0.5f)));
+            ItemList.TOAST_WITH_CHEESE = item("toast_with_cheese", new Item(food(null, 5, .5f)));
         }
     }
 
@@ -113,8 +113,8 @@ public class ItemRegistry {
                 .food(new FoodComponent.Builder().hunger(hunger).saturationModifier(saturation).build());
     }
 
-    private static FabricItemSettings meal(int hunger, float saturation) {
-        return new FabricItemSettings().recipeRemainder(Items.BOWL).maxCount(16)
+    private static FabricItemSettings meal(Item remainder, int hunger, float saturation) {
+        return new FabricItemSettings().recipeRemainder(remainder).maxCount(16)
                 .food(new FoodComponent.Builder().hunger(hunger)
                         .saturationModifier(saturation)
                         .statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), 3600, 0), 1.0f)
@@ -129,13 +129,14 @@ public class ItemRegistry {
                                 .build());
     }
 
-    private static FabricItemSettings food_special(int hunger, float saturation) {
-        return new FabricItemSettings()
+    private static FabricItemSettings food_special(Item remainder, StatusEffect effect, int duration, int amplifier, int hunger, float saturation) {
+        return new FabricItemSettings().recipeRemainder(remainder)
                 .food(new FoodComponent.Builder().hunger(hunger)
                         .saturationModifier(saturation)
-                        .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 200, 0), 1.0f)
+                        .statusEffect(new StatusEffectInstance(effect, duration, amplifier), 1.0f)
                         .build());
     }
+
 
     private static FabricItemSettings basic() {
         return new FabricItemSettings();

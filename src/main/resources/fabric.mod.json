@@ -8,7 +8,7 @@
     "Axperty"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/"
+    "homepage": "https://www.curseforge.com/members/axperty/projects"
   },
   "license": "MIT",
   "icon": "assets/moredelight/logo.png",
@@ -18,7 +18,6 @@
       "com.axperty.moredelight.MoreDelight"
     ]
   },
-
   "depends": {
     "fabricloader": ">=0.14.21",
     "fabric": "*",
