@@ -42,7 +42,7 @@ public class ItemRegistry {
         ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(9, 2f)));
 
         // Cooked Diced Potatoes
-        ItemList.COOKED_DICED_POTATOES = item("cooked_diced_potatoes", new Item(food(null,8, 1.5f).maxCount(16)));
+        ItemList.COOKED_DICED_POTATOES = item("cooked_diced_potatoes", new Item(food(null,8, 1.3f).maxCount(16)));
 
         // Cooked Diced Potatoes with Chicken Cuts
         ItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = item("cooked_diced_potatoes_with_chicken_cuts", new Item(meal(9, 2f)));
