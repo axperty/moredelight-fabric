@@ -29,6 +29,7 @@
 <h3>🛠️ Other Changes:</h3>
 <ul>
   <li>Adjusted hunger and saturation for all foods and meals.</li>
+  <li>Meals will now give back their bowl after eaten.</li>
   <li>Meals that require to be prepared in the cooking pot will now give you a small amount of experience.</li>
   <li>Reduced the chance to get more Diced Potatoes from 30% to 10%.</li>
   <li>Added translations for Ukrainian and Czech (thank you unroman!).</li>
