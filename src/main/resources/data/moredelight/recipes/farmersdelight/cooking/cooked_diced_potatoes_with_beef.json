@@ -2,17 +2,17 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "moredelight:diced_potatoes"
+        "item": "minecraft:beef"
       },
       {
         "item": "moredelight:diced_potatoes"
       },
       {
-        "item": "moredelight:diced_potatoes"
+        "item": "farmersdelight:onion"
       }
     ],
   "result": {
-    "item": "moredelight:cooked_diced_potatoes"
+    "item": "moredelight:cooked_diced_potatoes_with_chicken_cuts"
   },
   "container": {
     "item": "minecraft:bowl"

@@ -41,11 +41,14 @@ public class ItemRegistry {
         // Pasta with Milk Cream and Ham
         ItemList.PASTA_WITH_MILK_CREAM_AND_HAM = item("pasta_with_milk_cream_and_ham", new Item(meal(9, 2f)));
 
-        // Cooked Diced Potatoes
-        ItemList.COOKED_DICED_POTATOES = item("cooked_diced_potatoes", new Item(food(null,8, 1.3f).maxCount(16)));
-
         // Cooked Diced Potatoes with Chicken Cuts
         ItemList.COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS = item("cooked_diced_potatoes_with_chicken_cuts", new Item(meal(9, 2f)));
+
+        // Cooked Diced Potatoes with Chicken Cuts
+        ItemList.COOKED_DICED_POTATOES_WITH_BEEF = item("cooked_diced_potatoes_with_beef", new Item(meal(9, 2f)));
+
+        // Cooked Diced Potatoes with Porkchop
+        ItemList.COOKED_DICED_POTATOES_WITH_PORKCHOP = item("cooked_diced_potatoes_with_porkchop", new Item(meal(9, 2f)));
 
         // Potato Salad
         ItemList.POTATO_SALAD = item("potato_salad", new Item(food(null,8, 1.5f).maxCount(16)));
@@ -55,6 +58,9 @@ public class ItemRegistry {
 
         // Chocolate Popsicle
         ItemList.CHOCOLATE_POPSICLE = item("chocolate_popsicle", new Item(food(null, 7, 1.f)));
+
+        // Chicken Sandwich with Egg and Tomato
+        ItemList.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = item("chicken_sandwich_with_egg_and_tomato", new Item(food(null, 9, 2f)));
 
         // Egg with Bacon Sandwich
         ItemList.EGG_WITH_BACON_SANDWICH = item("egg_with_bacon_sandwich", new Item(food(null, 8, 1.5f)));
@@ -110,19 +116,25 @@ public class ItemRegistry {
     private static FabricItemSettings meal(int hunger, float saturation) {
         return new FabricItemSettings().recipeRemainder(Items.BOWL).maxCount(16)
                 .food(new FoodComponent.Builder().hunger(hunger)
-                        .saturationModifier(saturation).statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), 3600, 0), 1.0f).build());
+                        .saturationModifier(saturation)
+                        .statusEffect(new StatusEffectInstance(EffectsRegistry.NOURISHMENT.get(), 3600, 0), 1.0f)
+                        .build());
     }
 
     private static FabricItemSettings stew(int hunger, float saturation) {
                 return new FabricItemSettings().recipeRemainder(Items.BOWL).maxCount(16)
-                        .food(new FoodComponent.Builder().hunger(hunger).saturationModifier(saturation)
-                                .statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), 2400, 0), 1.0f).build());
+                        .food(new FoodComponent.Builder().hunger(hunger)
+                                .saturationModifier(saturation)
+                                .statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), 2400, 0), 1.0f)
+                                .build());
     }
 
     private static FabricItemSettings food_special(int hunger, float saturation) {
-        return new FabricItemSettings().maxCount(16)
+        return new FabricItemSettings()
                 .food(new FoodComponent.Builder().hunger(hunger)
-                        .saturationModifier(saturation).statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 300, 0), 1.0f).build());
+                        .saturationModifier(saturation)
+                        .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 200, 0), 1.0f)
+                        .build());
     }
 
     private static FabricItemSettings basic() {

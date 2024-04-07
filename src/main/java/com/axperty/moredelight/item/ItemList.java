@@ -25,11 +25,14 @@ public class ItemList {
     // Pasta with Milk Cream and Ham
     public static Item PASTA_WITH_MILK_CREAM_AND_HAM;
 
-    // Cooked Diced Potatoes
-    public static Item COOKED_DICED_POTATOES;
-
     // Cooked Diced Potatoes with Chicken Cuts
     public static Item COOKED_DICED_POTATOES_WITH_CHICKEN_CUTS;
+
+    // Cooked Diced Potatoes with Beef
+    public static Item COOKED_DICED_POTATOES_WITH_BEEF;
+
+    // Cooked Diced Potatoes with Porkchop
+    public static Item COOKED_DICED_POTATOES_WITH_PORKCHOP;
 
     // Potato Salad
     public static Item POTATO_SALAD;
@@ -39,6 +42,9 @@ public class ItemList {
 
     // Chocolate Popsicle
     public static Item CHOCOLATE_POPSICLE;
+
+    // Chicken Sandwich with Egg and Tomato
+    public static Item CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO;
 
     // Egg with Bacon Sandwich
     public static Item EGG_WITH_BACON_SANDWICH;
