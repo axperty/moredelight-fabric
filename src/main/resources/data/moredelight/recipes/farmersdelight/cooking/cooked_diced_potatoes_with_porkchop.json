@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "minecraft:cooked_porkchop"
+        "item": "minecraft:porkchop"
       },
       {
         "item": "moredelight:diced_potatoes"
@@ -12,7 +12,7 @@
       }
     ],
   "result": {
-    "item": "moredelight:cooked_diced_potatoes_with_chicken_cuts"
+    "item": "moredelight:cooked_diced_potatoes_with_porkchop"
   },
   "container": {
     "item": "minecraft:bowl"
