@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "minecraft:bread"
+      "item": "minecraft:bread"
     },
     {
-      "tag": "minecraft:cooked_chicken"
+      "item": "minecraft:cooked_chicken"
     },
     {
-      "tag": "farmersdelight:fried_egg"
+      "item": "farmersdelight:fried_egg"
     },
     {
       "item": "farmersdelight:tomato"
