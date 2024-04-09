@@ -53,6 +53,9 @@ public class ItemRegistry {
         // Potato Salad
         ItemList.POTATO_SALAD = item("potato_salad", new Item(food(Items.BOWL,6, .6f).maxCount(16)));
 
+        // Chicken Salad
+        ItemList.CHICKEN_SALAD = item("chicken_salad", new Item(food(Items.BOWL,6, .6f).maxCount(16)));
+
         // Carrot Soup
         ItemList.CARROT_SOUP = item("carrot_soup", new Item(stew(9, .75f)));
 
@@ -110,7 +113,10 @@ public class ItemRegistry {
 
     private static FabricItemSettings food(Item remainder, int hunger, float saturation) {
         return new FabricItemSettings().recipeRemainder(remainder)
-                .food(new FoodComponent.Builder().hunger(hunger).saturationModifier(saturation).build());
+                .food(new FoodComponent.Builder()
+                        .hunger(hunger)
+                        .saturationModifier(saturation)
+                        .build());
     }
 
     private static FabricItemSettings meal(Item remainder, int hunger, float saturation) {
@@ -125,7 +131,7 @@ public class ItemRegistry {
                 return new FabricItemSettings().recipeRemainder(Items.BOWL).maxCount(16)
                         .food(new FoodComponent.Builder().hunger(hunger)
                                 .saturationModifier(saturation)
-                                .statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), 2400, 0), 1.0f)
+                                .statusEffect(new StatusEffectInstance(EffectsRegistry.COMFORT.get(), 3600, 0), 1.0f)
                                 .build());
     }
 

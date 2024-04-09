@@ -37,6 +37,9 @@ public class ItemList {
     // Potato Salad
     public static Item POTATO_SALAD;
 
+    // Chicken Salad
+    public static Item CHICKEN_SALAD;
+
     // Carrot Soup
     public static Item CARROT_SOUP;
 

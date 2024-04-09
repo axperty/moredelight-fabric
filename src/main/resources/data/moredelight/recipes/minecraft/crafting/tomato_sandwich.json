@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bread"
+      "tag": "c:bread/wheat"
     },
     {
-      "item": "farmersdelight:tomato"
+      "tag": "c:vegetables/tomato"
     }
   ],
   "result": {

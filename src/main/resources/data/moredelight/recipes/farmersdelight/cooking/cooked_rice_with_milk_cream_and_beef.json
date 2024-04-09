@@ -5,10 +5,10 @@
         "item": "farmersdelight:milk_bottle"
       },
       {
-        "item": "farmersdelight:rice"
+        "tag": "c:crops/rice"
       },
       {
-        "item": "minecraft:beef"
+        "tag": "c:raw_beef"
       }
     ],
   "result": {

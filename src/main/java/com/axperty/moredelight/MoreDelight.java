@@ -20,6 +20,7 @@ public class MoreDelight implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        System.out.println("[More Delight Fabric]: Registering items...");
         Registry.register(Registries.ITEM_GROUP, GROUP, FabricItemGroup.builder()
                 .displayName(Text.translatable("More Delight"))
                 .icon(() -> new ItemStack(ItemList.WOODEN_KNIFE))
@@ -27,5 +28,6 @@ public class MoreDelight implements ModInitializer {
 
         ItemRegistry.registerItems();
         BlockRegistry.registerBlocks();
+        System.out.println("[More Delight Fabric] Items registered successfully!");
     }
 }

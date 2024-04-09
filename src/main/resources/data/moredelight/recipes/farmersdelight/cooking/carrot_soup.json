@@ -5,10 +5,10 @@
       "item": "farmersdelight:milk_bottle"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "c:vegetables/carrot"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "c:vegetables/carrot"
     }
   ],
   "result": {

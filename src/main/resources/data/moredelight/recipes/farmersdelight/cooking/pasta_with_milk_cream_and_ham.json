@@ -5,7 +5,7 @@
         "item": "farmersdelight:milk_bottle"
       },
       {
-        "item": "farmersdelight:raw_pasta"
+        "tag": "c:pasta/raw_pasta"
       },
       {
         "item": "farmersdelight:ham"
