@@ -11,8 +11,10 @@
 
 <h3>🛠️ Other Changes:</h3>
 <ul>
-  <li>More Delight now supports tags, this allows to make recipes with ingredients from other mods.</li>
+  <li>More Delight now supports tags, letting you create recipes that mix and match ingredients from other mods.</li>
   <li>Increased the comfort effect time for the Carrot Soup.</li>
+  <li>Reduced the chance to get more Bread Slices from 50% to 20%.</li>
+  <li>Reduced the glowing effect time for the Toast with Glow Berries from 10 seconds to 5 seconds.</li>
   <li>Improved translations for Ukrainian and Czech (thank you unroman!).</li>
 </ul>
 <hr/>

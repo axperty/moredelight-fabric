@@ -8,7 +8,7 @@
       "item": "minecraft:cooked_beef"
     },
     {
-      "item": "farmersdelight:fried_egg"
+      "tag": "c:cooked_eggs"
     }
   ],
   "result": {

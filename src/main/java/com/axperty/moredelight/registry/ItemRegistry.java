@@ -50,11 +50,11 @@ public class ItemRegistry {
         // Cooked Diced Potatoes with Porkchop
         ItemList.COOKED_DICED_POTATOES_WITH_PORKCHOP = item("cooked_diced_potatoes_with_porkchop", new Item(food_special(Items.BOWL, StatusEffects.RESISTANCE, 200, 0,10, .75f).maxCount(16)));
 
-        // Potato Salad
-        ItemList.POTATO_SALAD = item("potato_salad", new Item(food(Items.BOWL,6, .6f).maxCount(16)));
-
         // Chicken Salad
         ItemList.CHICKEN_SALAD = item("chicken_salad", new Item(food(Items.BOWL,6, .6f).maxCount(16)));
+
+        // Potato Salad
+        ItemList.POTATO_SALAD = item("potato_salad", new Item(food(Items.BOWL,6, .6f).maxCount(16)));
 
         // Carrot Soup
         ItemList.CARROT_SOUP = item("carrot_soup", new Item(stew(9, .75f)));
@@ -90,7 +90,7 @@ public class ItemRegistry {
         ItemList.TOAST_WITH_SWEET_BERRIES = item("toast_with_sweet_berries", new Item(food(null, 5, .5f)));
 
         // Toast with Glow Berries
-        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food_special(null, StatusEffects.GLOWING, 200, 0, 5, .5f)));
+        ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food_special(null, StatusEffects.GLOWING, 100, 0, 5, .5f)));
 
         // Toast with Chocolate
         ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, .5f)));

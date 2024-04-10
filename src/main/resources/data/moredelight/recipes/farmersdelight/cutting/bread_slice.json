@@ -2,7 +2,7 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "minecraft:bread"
+      "tag": "c:bread/wheat"
     }
   ],
   "tool": {
@@ -15,7 +15,7 @@
     },
     {
       "item": "moredelight:bread_slice",
-      "chance": 0.5
+      "chance": 0.2
     }
   ]
 }

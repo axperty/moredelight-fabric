@@ -34,11 +34,11 @@ public class ItemList {
     // Cooked Diced Potatoes with Porkchop
     public static Item COOKED_DICED_POTATOES_WITH_PORKCHOP;
 
-    // Potato Salad
-    public static Item POTATO_SALAD;
-
     // Chicken Salad
     public static Item CHICKEN_SALAD;
+
+    // Potato Salad
+    public static Item POTATO_SALAD;
 
     // Carrot Soup
     public static Item CARROT_SOUP;
