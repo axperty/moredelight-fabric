@@ -75,7 +75,7 @@ public class ItemRegistry {
         ItemList.TOMATO_SANDWICH = item("tomato_sandwich", new Item(food(null, 6, .6f)));
 
         // Bread Slice
-        ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 1, .3f)));
+        ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 1, .4f)));
 
         // Toast
         ItemList.TOAST = item("toast", new Item(food(null, 2, .4f)));
@@ -88,6 +88,11 @@ public class ItemRegistry {
 
         // Toast with Sweet Berries
         ItemList.TOAST_WITH_SWEET_BERRIES = item("toast_with_sweet_berries", new Item(food(null, 5, .5f)));
+
+        // Toast with Blueberries (Nutritious Feast)
+        if (FabricLoader.getInstance().isModLoaded("nutritious-feast")) {
+            ItemList.TOAST_WITH_BLUEBERRIES = item("toast_with_blueberries", new Item(food(null, 5, .5f)));
+        }
 
         // Toast with Glow Berries
         ItemList.TOAST_WITH_GLOW_BERRIES = item("toast_with_glow_berries", new Item(food_special(null, StatusEffects.GLOWING, 100, 0, 5, .5f)));

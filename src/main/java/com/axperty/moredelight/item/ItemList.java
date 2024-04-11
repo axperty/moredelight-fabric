@@ -73,6 +73,9 @@ public class ItemList {
     // Toast with Sweet Berries
     public static Item TOAST_WITH_SWEET_BERRIES;
 
+    // Toast with Blueberries (Nutritious Feast)
+    public static Item TOAST_WITH_BLUEBERRIES;
+
     // Toast with Glow Berries
     public static Item TOAST_WITH_GLOW_BERRIES;
 
