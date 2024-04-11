@@ -11,7 +11,7 @@
     "homepage": "https://www.curseforge.com/members/axperty/projects"
   },
   "license": "MIT",
-  "icon": "assets/moredelight/logo.png",
+  "icon": "assets/moredelight/logo.gif",
   "environment": "*",
   "entrypoints": {
     "main": [

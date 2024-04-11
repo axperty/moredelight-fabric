@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+      {
+        "tag": "c:eggs"
+      },
+      {
+        "item": "casualness_delight:potato_slice"
+      },
+      {
+        "tag": "c:vegetables/onion"
+      }
+    ],
+  "result": {
+    "item": "moredelight:potato_salad"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 1.0
+}

@@ -75,7 +75,7 @@ public class ItemRegistry {
         ItemList.TOMATO_SANDWICH = item("tomato_sandwich", new Item(food(null, 6, .6f)));
 
         // Bread Slice
-        ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 1, .4f)));
+        ItemList.BREAD_SLICE = item("bread_slice", new Item(food(null, 2, .4f)));
 
         // Toast
         ItemList.TOAST = item("toast", new Item(food(null, 2, .4f)));
@@ -100,8 +100,8 @@ public class ItemRegistry {
         // Toast with Chocolate
         ItemList.TOAST_WITH_CHOCOLATE = item("toast_with_chocolate", new Item(food(null, 5, .5f)));
 
-        // Toast with Cheese (Expanded Delight)
-        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
+        // Toast with Cheese (Expanded Delight or Casualness Delight)
+        if (FabricLoader.getInstance().isModLoaded("expandeddelight") || FabricLoader.getInstance().isModLoaded("casualness_delight")) {
             ItemList.TOAST_WITH_CHEESE = item("toast_with_cheese", new Item(food(null, 5, .5f)));
         }
     }

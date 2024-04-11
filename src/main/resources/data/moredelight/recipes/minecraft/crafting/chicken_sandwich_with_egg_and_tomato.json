@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:bread/wheat"
+      "tag": "c:bread"
     },
     {
       "tag": "c:cooked_chicken"

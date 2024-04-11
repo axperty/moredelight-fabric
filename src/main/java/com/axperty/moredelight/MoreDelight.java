@@ -14,6 +14,8 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
+import javax.swing.text.html.HTML;
+
 public class MoreDelight implements ModInitializer {
     public static final String MOD_ID = "moredelight";
     public static final RegistryKey<ItemGroup> GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(MOD_ID, "group"));
@@ -27,7 +29,6 @@ public class MoreDelight implements ModInitializer {
                 .build());
 
         ItemRegistry.registerItems();
-        BlockRegistry.registerBlocks();
         System.out.println("[More Delight Fabric] Items registered successfully!");
     }
 }

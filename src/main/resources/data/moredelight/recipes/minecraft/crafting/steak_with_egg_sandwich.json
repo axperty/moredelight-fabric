@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:bread/wheat"
+      "tag": "c:bread"
     },
     {
       "item": "minecraft:cooked_beef"
