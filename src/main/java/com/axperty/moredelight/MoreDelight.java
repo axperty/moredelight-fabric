@@ -15,6 +15,9 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 import javax.swing.text.html.HTML;
+import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class MoreDelight implements ModInitializer {
     public static final String MOD_ID = "moredelight";
