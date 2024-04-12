@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "minecraft:raw_beef"
+        "item": "minecraft:beef"
       },
       {
         "item": "moredelight:diced_potatoes"
