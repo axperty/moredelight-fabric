@@ -2,17 +2,17 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "c:milks/milk_bottles"
+        "tag": "c:cooked_beef"
       },
       {
-        "tag": "c:grains/rice"
+        "item": "moredelight:diced_potatoes"
       },
       {
-        "tag": "c:foods/raw_meats/raw_beef"
+        "tag": "c:vegetables/onion"
       }
     ],
   "result": {
-    "item": "moredelight:cooked_rice_with_milk_cream_and_beef"
+    "item": "moredelight:cooked_diced_potatoes_with_beef"
   },
   "container": {
     "item": "minecraft:bowl"

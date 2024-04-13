@@ -21,6 +21,7 @@
 <ul>
   <li>Meals with diced potatoes are now compatible with Casualness Delight.</li>
   <li>Toast with Cheese can now be made with cheese from Casualness Delight.</li>
+  <li>Sandwiches from Expanded Delight can now be made with bread slices.</li>
 </ul>
 
 <h3>🛠️ Other Changes:</h3>

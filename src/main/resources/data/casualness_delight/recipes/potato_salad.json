@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "c:eggs"
+        "item": "minecraft:egg"
       },
       {
         "item": "casualness_delight:potato_slice"
       },
       {
-        "tag": "c:vegetables/onion"
+        "item": "farmersdelight:onion"
       }
     ],
   "result": {

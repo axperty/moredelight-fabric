@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "moredelight:toast"
+      "tag": "moredelight:bread_slice"
     },
     {
       "tag": "c:cheese"
     }
   ],
   "result": {
-    "item": "moredelight:toast_with_cheese"
+    "item": "expandeddelight:cheese_sandwich"
   }
 }

@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "tag": "c:raw_beef"
+        "item": "minecraft:beef"
       },
       {
         "item": "casualness_delight:potato_slice"
       },
       {
-        "tag": "c:vegetables/onion"
+        "item": "farmersdelight:onion"
       }
     ],
   "result": {

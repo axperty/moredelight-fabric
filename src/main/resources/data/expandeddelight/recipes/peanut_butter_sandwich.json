@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:bread/wheat"
+      "item": "moredelight:bread_slice"
     },
     {
       "item": "expandeddelight:peanut_butter"
