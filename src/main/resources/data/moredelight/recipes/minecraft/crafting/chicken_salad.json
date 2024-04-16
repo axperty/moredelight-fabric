@@ -3,16 +3,16 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "farmersdelight:cabbage"
+      "tag": "c:salad_ingredients"
     },
     {
-      "item": "farmersdelight:tomato"
+      "tag": "c:foods/vegetables/tomato"
     },
     {
-      "item": "minecraft:cooked_chicken"
+      "tag": "c:foods/cooked_meats/cooked_chicken"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "c:foods/vegetables/onion"
     }
   ],
   "result": {

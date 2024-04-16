@@ -1,14 +1,20 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": ["casualness_delight"]
+    }
+  ],
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "farmersdelight:chicken_cuts"
+        "tag": "c:foods/raw_meats/raw_chicken"
       },
       {
         "item": "casualness_delight:potato_slice"
       },
       {
-        "item": "farmersdelight:onion"
+        "tag": "c:foods/vegetables/onion"
       }
     ],
   "result": {

@@ -2,13 +2,13 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
       {
-        "item": "farmersdelight:milk_bottle"
+        "tag": "c:milks"
       },
       {
-        "item": "moredelight:diced_potatoes"
+        "tag": "c:sliced_potato"
       },
       {
-        "item": "moredelight:diced_potatoes"
+        "tag": "c:sliced_potato"
       }
     ],
   "result": {

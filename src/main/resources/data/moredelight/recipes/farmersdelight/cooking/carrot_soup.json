@@ -1,15 +1,15 @@
 {
   "type": "farmersdelight:cooking",
   "ingredients": [
-    {
-      "item": "farmersdelight:milk_bottle"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "minecraft:carrot"
-    }
+      {
+        "tag": "c:milks"
+      },
+      {
+        "tag": "c:foods/vegetables/carrot"
+      },
+      {
+        "tag": "c:foods/vegetables/carrot"
+      }
   ],
   "result": {
     "item": "moredelight:carrot_soup"

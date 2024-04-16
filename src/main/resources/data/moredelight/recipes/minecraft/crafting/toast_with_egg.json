@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "farmersdelight:fried_egg"
+      "tag": "c:foods/cooked_meats/cooked_eggs"
     },
     {
       "item": "moredelight:toast"

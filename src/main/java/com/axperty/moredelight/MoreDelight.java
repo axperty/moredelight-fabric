@@ -4,7 +4,6 @@ import com.axperty.moredelight.item.ItemList;
 import com.axperty.moredelight.registry.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -13,11 +12,6 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-
-import javax.swing.text.html.HTML;
-import java.io.File;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 public class MoreDelight implements ModInitializer {
     public static final String MOD_ID = "moredelight";
@@ -32,6 +26,14 @@ public class MoreDelight implements ModInitializer {
                 .build());
 
         ItemRegistry.registerItems();
-        System.out.println("[More Delight Fabric] Items registered successfully!");
+        System.out.println("[More Delight Fabric]: Items registered successfully!");
+
+        System.out.println("[More Delight Fabric]: Checking Farmer's Delight version...");
+        try {
+            Class.forName("vectorwing.farmersdelight.FarmersDelight");
+            System.out.println("[More Delight Fabric]: Farmer's Delight Refabricated is loaded.");
+        } catch (Exception ignored) {
+            System.out.println("[More Delight Fabric]: Farmer's Delight [Fabric] has been archived and it will not receive updates anymore, please update to Farmer's Delight Refabricated.");
+        }
     }
 }
