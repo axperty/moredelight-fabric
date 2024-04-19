@@ -27,7 +27,10 @@ public class MoreDelight implements ModInitializer {
 
         ItemRegistry.registerItems();
         System.out.println("[More Delight Fabric]: Items registered successfully!");
+        checkFarmersDelight();
+    }
 
+    public void checkFarmersDelight() {
         System.out.println("[More Delight Fabric]: Checking Farmer's Delight version...");
         try {
             Class.forName("vectorwing.farmersdelight.FarmersDelight");

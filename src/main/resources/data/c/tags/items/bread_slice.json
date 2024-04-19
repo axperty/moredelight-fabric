@@ -4,6 +4,10 @@
     {
       "id": "moredelight:bread_slice",
       "required": false
+    },
+    {
+      "id": "moredelight:toast",
+      "required": false
     }
   ]
 }

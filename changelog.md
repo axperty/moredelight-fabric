@@ -18,7 +18,7 @@
 <h3>🍞 Bread Balancing:</h3>
 <ul>
   <li><b>What:</b> Increased amount of bread slices when cutting bread from 2 slices to 4 slices, and removed the chance to get more bread slices when cutting bread.</li>
-  <li><b>Why:</b> This change makes sandwich crafting more balanced and logical, requiring two bread slices instead of one.</li>
+  <li><b>Why:</b> This change was made to make crafting sandwiches more affordable for players. By getting more slices from each loaf, players won't need to use as many resources to make their favorite sandwiches.</li>
 </ul>
 
 <h3>🥪 Sandwiches:</h3>
