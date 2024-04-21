@@ -2,4 +2,4 @@
 ___
 Enhance your culinary journey with an expanded collection of knives, offering versatility for a variety of foods and meals. Elevate your overall cooking experience, allowing you to explore and master a diverse range of culinary creations.
 
-[Download on CurseForge](https://curseforge.com/minecraft/mc-mods/more-delight-fabric) | [Download on Modrinth](https://modrinth.com/mod/more-delight-fabric)
+[Download for Forge](https://curseforge.com/minecraft/mc-mods/more-delight-forge) | [Download for Forge](https://curseforge.com/minecraft/mc-mods/more-delight-fabric) 
