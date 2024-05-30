@@ -36,7 +36,7 @@ public class MoreDelight implements ModInitializer {
             Class.forName("vectorwing.farmersdelight.FarmersDelight");
             System.out.println("[More Delight Fabric]: Farmer's Delight Refabricated is loaded.");
         } catch (Exception ignored) {
-            System.out.println("[More Delight Fabric]: Farmer's Delight [Fabric] has been archived and it will not receive updates anymore, please update to Farmer's Delight Refabricated.");
+            System.out.println("[More Delight Fabric]: Farmer's Delight [Fabric] is outdated and it might not work as expected with More Delight.");
         }
     }
 }

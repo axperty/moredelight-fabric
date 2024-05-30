@@ -65,6 +65,11 @@ public class ItemRegistry {
         // Chicken Sandwich with Egg and Tomato
         ItemList.CHICKEN_SANDWICH_WITH_EGG_AND_TOMATO = item("chicken_sandwich_with_egg_and_tomato", new Item(food(null, 11, .9f)));
 
+        // Ham and Cheese Sandwich (Expanded Delight & Casualness Delight)
+        if (FabricLoader.getInstance().isModLoaded("expandeddelight") || (FabricLoader.getInstance().isModLoaded("casualness_delight"))) {
+            ItemList.HAM_AND_CHEESE_SANDWICH = item("ham_and_cheese_sandwich", new Item(food(null, 10, .8f)));
+        }
+
         // Egg with Bacon Sandwich
         ItemList.EGG_WITH_BACON_SANDWICH = item("egg_with_bacon_sandwich", new Item(food(null, 10, .8f)));
 
