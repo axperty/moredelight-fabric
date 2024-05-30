@@ -1,12 +1,12 @@
 <p align="left"><img src="https://cdn.modrinth.com/data/znHQQtuU/images/6833d6b12f2605b2925a31261438c6a355903132.png" alt="More Delight Logo">
 
-<h3>Recipe Overload Update: Patch 2</h3>
-<p><b>Summary:</b> This update introduces required compatibility with Farmer's Delight Refabricated, adjusts bread slicing, and refines sandwich recipes.</p>
+<h3>Minor Update</h3>
+<p><b>Summary:</b> This update brings the Ham and Cheese Sandwich for Expanded Delight and Casualness Delight.</p>
 <hr/>
 
 <h3>✨ What's New:</h3>
 <ul>
-  <li>Added Ham and Cheese Sandwich (for Expanded Delight or Casualness Delight).</li>
+  <li>Added Ham and Cheese Sandwich (for Expanded Delight and Casualness Delight).</li>
 </ul>
 
 <h3>⚙️ Minor Changes:</h3>
